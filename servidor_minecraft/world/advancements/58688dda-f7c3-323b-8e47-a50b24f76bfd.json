@@ -211,10 +211,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-01-02 05:09:38 +0000",
       "minecraft:beach": "2025-01-02 01:56:07 +0000",
       "minecraft:cold_ocean": "2025-01-02 04:36:21 +0000",
       "minecraft:ocean": "2025-01-02 02:08:13 +0000",
       "minecraft:windswept_savanna": "2025-01-02 02:01:17 +0000",
+      "minecraft:frozen_peaks": "2025-01-02 05:15:15 +0000",
       "minecraft:plains": "2025-01-02 02:04:07 +0000"
     },
     "done": false
@@ -2411,6 +2413,42 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-01-02 05:07:43 +0000"
+    },
+    "done": true
+  },
+  "reimaginingpotatoes:recipes/building_blocks/poisonous_potato_block": {
+    "criteria": {
+      "has_poisonous_potato": "2025-01-02 05:11:52 +0000"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/void_lily": {
+    "criteria": {
+      "has_amethyst_shard": "2025-01-02 05:07:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-01-02 05:07:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-01-02 05:07:43 +0000"
+    },
+    "done": true
+  },
+  "reimaginingpotatoes:recipes/combat/poisonous_potato_chestplate": {
+    "criteria": {
+      "has_poisonous_potato": "2025-01-02 05:11:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
     "criteria": {
       "has_coast_armor_trim_smithing_template": "2025-01-02 04:56:13 +0000"
@@ -2423,9 +2461,45 @@
     },
     "done": true
   },
+  "reimaginingpotatoes:recipes/misc/potato_hammer": {
+    "criteria": {
+      "has_poisonous_potato": "2025-01-02 05:11:52 +0000"
+    },
+    "done": true
+  },
+  "resource_cracker:recipes/misc/campfire/material_dust_sulfur": {
+    "criteria": {
+      "has_garlic": "2025-01-02 05:13:51 +0000"
+    },
+    "done": true
+  },
+  "resource_cracker:recipes/misc/smelting/material_dust_sulfur": {
+    "criteria": {
+      "has_garlic": "2025-01-02 05:13:51 +0000"
+    },
+    "done": true
+  },
+  "reimaginingpotatoes:recipes/building_blocks/expired_baked_potato_bricks": {
+    "criteria": {
+      "has_poisonous_potato": "2025-01-02 05:11:52 +0000"
+    },
+    "done": true
+  },
+  "reimaginingpotatoes:recipes/combat/poisonous_pota_toes": {
+    "criteria": {
+      "has_poisonous_potato": "2025-01-02 05:11:52 +0000"
+    },
+    "done": true
+  },
   "morebows:recipes/gold_bow": {
     "criteria": {
       "has_bow": "2025-01-02 05:04:41 +0000"
+    },
+    "done": true
+  },
+  "reimaginingpotatoes:recipes/food/poisonous_potato_sticks_from_poisonous_potato_stonecutting": {
+    "criteria": {
+      "has_poisonous_potato": "2025-01-02 05:11:52 +0000"
     },
     "done": true
   },
@@ -2438,6 +2512,48 @@
   "morebows:recipes/diamond_bow": {
     "criteria": {
       "has_bow": "2025-01-02 05:04:41 +0000"
+    },
+    "done": true
+  },
+  "resource_cracker:recipes/misc/blasting/material_dust_sulfur": {
+    "criteria": {
+      "has_garlic": "2025-01-02 05:13:51 +0000"
+    },
+    "done": true
+  },
+  "reimaginingpotatoes:recipes/redstone/potato_battery": {
+    "criteria": {
+      "has_poisonous_potato": "2025-01-02 05:11:52 +0000"
+    },
+    "done": true
+  },
+  "reimaginingpotatoes:recipes/misc/potato_eye": {
+    "criteria": {
+      "has_poisonous_potato": "2025-01-02 05:11:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-01-02 05:07:43 +0000"
+    },
+    "done": true
+  },
+  "reimaginingpotatoes:recipes/food/hot_potato": {
+    "criteria": {
+      "has_potato": "2025-01-02 05:11:52 +0000"
+    },
+    "done": true
+  },
+  "reimaginingpotatoes:recipes/misc/poisonous_polytra": {
+    "criteria": {
+      "has_poisonous_potato": "2025-01-02 05:11:52 +0000"
+    },
+    "done": true
+  },
+  "reimaginingpotatoes:recipes/food/poisonous_potato_slices_from_poisonous_potato_stonecutting": {
+    "criteria": {
+      "has_poisonous_potato": "2025-01-02 05:11:52 +0000"
     },
     "done": true
   },
