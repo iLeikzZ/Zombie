@@ -2351,7 +2351,19 @@
     },
     "done": true
   },
+  "zenith:affix/random": {
+    "criteria": {
+      "sword": "2025-01-02 04:28:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_leggings": "2025-01-02 04:37:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_leggings": "2025-01-02 04:37:22 +0000"
     },
@@ -2363,21 +2375,9 @@
     },
     "done": true
   },
-  "zenith:affix/random": {
-    "criteria": {
-      "sword": "2025-01-02 04:28:10 +0000"
-    },
-    "done": true
-  },
   "consistency_plus:recipes/gold_nugget": {
     "criteria": {
       "has_block": "2025-01-02 04:37:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
-    "criteria": {
-      "has_golden_leggings": "2025-01-02 04:37:22 +0000"
     },
     "done": true
   },
