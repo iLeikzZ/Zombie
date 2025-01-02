@@ -212,6 +212,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-01-02 05:09:38 +0000",
+      "minecraft:cherry_grove": "2025-01-02 19:48:45 +0000",
       "minecraft:beach": "2025-01-02 01:56:07 +0000",
       "minecraft:cold_ocean": "2025-01-02 04:36:21 +0000",
       "minecraft:ice_spikes": "2025-01-02 18:22:53 +0000",
@@ -1216,6 +1217,9 @@
     "criteria": {
       "minecraft:skeleton": "2025-01-02 03:10:39 +0000",
       "minecraft:spider": "2025-01-02 04:25:59 +0000",
+      "minecraft:wither_skeleton": "2025-01-02 19:15:29 +0000",
+      "minecraft:husk": "2025-01-02 19:51:43 +0000",
+      "minecraft:cave_spider": "2025-01-02 19:27:52 +0000",
       "minecraft:zombie": "2025-01-02 02:21:36 +0000"
     },
     "done": false
@@ -2741,6 +2745,414 @@
   "dungeons_arise:find_infested_temple": {
     "criteria": {
       "location0": "2025-01-02 18:56:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2025-01-02 18:59:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "resource_cracker:recipes/tools/tools/scythe/scythe_diamond": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/diamond_to_obsidian_conversion_kit": {
+    "criteria": {
+      "has_item": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "resource_cracker:recipes/misc/material_dusts/material_dust_diamond_from_diamond": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "resource_cracker:recipes/tools/tools/crack_hammer/crack_hammer_diamond": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/tools/diamond_machete": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/recipe_diamond_brush": {
+    "criteria": {
+      "has_item": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "resource_cracker:recipes/tools/tools/chisel/chisel_diamond": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-01-02 18:59:50 +0000"
+    },
+    "done": true
+  },
+  "spellbladenext:spellblades/gladius": {
+    "criteria": {
+      "arcane": "2025-01-02 19:00:15 +0000"
+    },
+    "done": true
+  },
+  "overweight_farming:recipes/overweight_golden_apple_block": {
+    "criteria": {
+      "has_gold_block": "2025-01-02 19:05:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-01-02 19:05:55 +0000"
+    },
+    "done": true
+  },
+  "reimaginingpotatoes:recipes/food/enchanted_golden_poisonous_potato": {
+    "criteria": {
+      "has_gold_block": "2025-01-02 19:05:55 +0000"
+    },
+    "done": true
+  },
+  "spellbladenext:spellblades/falchion": {
+    "criteria": {
+      "arcane": "2025-01-02 19:06:55 +0000"
+    },
+    "done": true
+  },
+  "consistency_plus:recipes/withered_bone": {
+    "criteria": {
+      "has_block": "2025-01-02 19:15:36 +0000"
+    },
+    "done": true
+  },
+  "zenith:spawner/capturing": {
+    "criteria": {
+      "egg": "2025-01-02 19:16:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+    "criteria": {
+      "has_smooth_quartz": "2025-01-02 19:16:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2025-01-02 19:16:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2025-01-02 19:16:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2025-01-02 19:16:44 +0000"
+    },
+    "done": true
+  },
+  "quartzelv:recipes/building_blocks/smooth_quartz_elevator_from_smooth_quartz": {
+    "criteria": {
+      "has_smooth_quartz": "2025-01-02 19:16:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-01-02 19:17:40 +0000"
+    },
+    "done": true
+  },
+  "zenith:enchanting/enchanter": {
+    "criteria": {
+      "enchanting_table": "2025-01-02 19:18:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-01-02 19:18:17 +0000"
+    },
+    "done": true
+  },
+  "reimaginingpotatoes:recipes/misc/big_brain": {
+    "criteria": {
+      "has_skull": "2025-01-02 19:18:37 +0000"
+    },
+    "done": true
+  },
+  "reimaginingpotatoes:recipes/combat/vicious_potato": {
+    "criteria": {
+      "has_skull": "2025-01-02 19:18:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-01-02 19:18:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-01-02 19:18:37 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/dark_oak_window": {
+    "criteria": {
+      "has_ingredient": "2025-01-02 19:22:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-01-02 19:22:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-01-02 19:22:52 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/dark_oak_shelf": {
+    "criteria": {
+      "has_planks": "2025-01-02 19:22:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-01-02 19:22:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-02 19:22:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-02 19:22:52 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/dark_oak_table": {
+    "criteria": {
+      "has_planks": "2025-01-02 19:22:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-01-02 19:22:52 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/dark_oak_chair": {
+    "criteria": {
+      "has_planks": "2025-01-02 19:22:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-02 19:22:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-01-02 19:22:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-01-02 19:22:52 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-02 19:24:23 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-02 19:24:23 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-02 19:24:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-01-02 19:24:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2025-01-02 19:24:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-01-02 19:31:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-01-02 19:31:34 +0000"
+    },
+    "done": true
+  },
+  "consistency_plus:recipes/dark_prismarine": {
+    "criteria": {
+      "has_block": "2025-01-02 19:31:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2025-01-02 19:31:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2025-01-02 19:31:34 +0000"
+    },
+    "done": true
+  },
+  "consistency_plus:recipes/yellow_terracotta": {
+    "criteria": {
+      "has_block": "2025-01-02 19:31:35 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/the_magicians": {
+    "criteria": {
+      "killed_illusioner": "2025-01-02 19:35:38 +0000"
+    },
+    "done": false
+  },
+  "friendsandfoes:adventure/kill_illusioner": {
+    "criteria": {
+      "killed_illusioner": "2025-01-02 19:35:38 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/food/ambrosia": {
+    "criteria": {
+      "has_item": "2025-01-02 19:38:39 +0000"
+    },
+    "done": true
+  },
+  "the_bumblezone:teleportation/is_near_beehive": {
+    "criteria": {
+      "is_near_beehive": "2025-01-02 19:48:59 +0000"
     },
     "done": true
   },
