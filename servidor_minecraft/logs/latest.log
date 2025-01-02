@@ -1,12 +1,12 @@
-[18:17:28] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.9
-[18:17:31] [ForkJoinPool-1-worker-3/WARN]: Mod oceansdelight uses the version fdrf-fabric-1.0.2-1.20 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fdrf'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[18:17:33] [ForkJoinPool-1-worker-2/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[18:17:34] [ForkJoinPool-1-worker-1/WARN]: Mod tectonic uses the version 2.3.5b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '5b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[18:17:34] [ForkJoinPool-1-worker-1/WARN]: Mod netherdepthsupgrade uses the version fabric-3.1.6-1.20 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[18:17:35] [ForkJoinPool-1-worker-1/WARN]: Mod globalpacks uses the version 1.16.1_fabric which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1_fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[18:17:36] [ForkJoinPool-1-worker-3/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[18:50:59] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.9
+[18:50:59] [ForkJoinPool-1-worker-3/WARN]: Mod oceansdelight uses the version fdrf-fabric-1.0.2-1.20 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fdrf'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:51:00] [ForkJoinPool-1-worker-3/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:51:00] [ForkJoinPool-1-worker-3/WARN]: Mod tectonic uses the version 2.3.5b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '5b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:51:00] [ForkJoinPool-1-worker-3/WARN]: Mod netherdepthsupgrade uses the version fabric-3.1.6-1.20 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:51:00] [ForkJoinPool-1-worker-3/WARN]: Mod globalpacks uses the version 1.16.1_fabric which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1_fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:51:00] [ForkJoinPool-1-worker-3/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 12
-[18:17:38] [main/WARN]: Warnings were found!
+[18:51:00] [main/WARN]: Warnings were found!
  - Mod 'Andromeda' (andromeda) 1.13.2-1.20.1-build.102 recommends version 7.2.1 or later of modmenu, which is missing!
 	 - You should install version 7.2.1 or later of modmenu for the optimal experience.
  - Mod 'More Bows Restrung' (morebows) 1.0.11+1.20.x recommends version 7.0.0-beta.2 or later of modmenu, which is missing!
@@ -17,7 +17,7 @@
 	 - You should install version 1.7.2 or later of bettercombat for the optimal experience.
  - Mod 'Spellblades and Such' (spellbladenext) 2.3.0+1.20.1 recommends version 1.2.0+1.20.1 of paladins, which is missing!
 	 - You should install version 1.2.0+1.20.1 of paladins for the optimal experience.
-[18:17:38] [main/INFO]: Loading 412 mods:
+[18:51:00] [main/INFO]: Loading 412 mods:
 	- adventurez 1.4.20
 	- ae2 15.3.2-beta
 	   \-- team_reborn_energy 3.0.0
@@ -503,96 +503,96 @@
 	   |-- playerabilitylib 1.8.0
 	   \-- reach-entity-attributes 2.4.0
 	- zombify 0.1.4
-[18:17:40] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Zombie/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[18:17:40] [main/INFO]: Compatibility level set to JAVA_17
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[18:17:41] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.2.14 (*) (defined in c2me)
-[18:17:41] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[18:17:41] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[18:17:41] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[18:17:41] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[18:17:41] [main/WARN]: Reference map 'CerbonsAPI-Fabric-1.20.1-fabric-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:41] [main/WARN]: Reference map 'codec-config-api-refmap.json' for codec-config-api.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:41] [main/WARN]: Reference map 'connectedglass.mixins.refmap.json' for connectedglass.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:41] [main/WARN]: Reference map 'graveyard-FABRIC-fabric-refmap.json' for graveyard-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:41] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 5 override(s) found
-[18:17:41] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:41] [main/INFO]: Loaded configuration file for ModernFix 5.19.0+mc1.20.1: 60 options available, 4 override(s) found
-[18:17:41] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[18:17:41] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[18:17:41] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[18:17:41] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[18:17:41] [main/INFO]: Applying Nashorn fix
-[18:17:41] [main/WARN]: Reference map 'mysticaloaktree-fabric-refmap.json' for mysticaloaktree.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:41] [main/WARN]: Reference map 'mysticaloaktree-common-refmap.json' for mysticaloaktree-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:41] [main/WARN]: Reference map 'oceansdelight-refmap.json' for oceansdelight.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:42] [main/WARN]: Reference map 'resourceconfigapi.refmap.json' for resourceconfigapi.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:42] [main/WARN]: Reference map 'resourceconfigapi.refmap.json' for resourceconfigapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:42] [main/WARN]: Reference map 'resourcelibrary.refmap.json' for resourcelibrary.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:42] [main/WARN]: Reference map 'resourcelibrary.refmap.json' for resourcelibrary.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:42] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:42] [main/WARN]: Reference map 'smarterfarmers-fabric-refmap.json' for smarterfarmers.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:42] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:42] [main/WARN]: Reference map 'weaponmaster-client-only-fabric-1.20.1-refmap.json' for weaponmaster.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:42] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:42] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:17:42] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
-[18:17:42] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
-[18:17:42] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[18:17:42] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
-[18:17:42] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[18:17:42] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[18:17:43] [main/WARN]: Error loading class: net/minecraft/class_636 (java.lang.ClassNotFoundException: net/minecraft/class_636)
-[18:17:43] [main/WARN]: @Mixin target net.minecraft.class_636 was not found crab.mixins.json:ClientPlayerInteractionManagerMixin from mod crab
-[18:17:43] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[18:17:43] [main/WARN]: @Mixin target net.minecraft.class_906 was not found go-fish.mixins.json:FishingBobberEntityRendererMixin from mod go-fish
-[18:17:43] [main/WARN]: Error loading class: net/minecraft/class_702 (java.lang.ClassNotFoundException: net/minecraft/class_702)
-[18:17:43] [main/WARN]: @Mixin target net.minecraft.class_702 was not found go-fish.mixins.json:ParticleManagerMixin from mod go-fish
-[18:17:43] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
-[18:17:43] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.MultiTickTaskMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
-[18:17:43] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[18:17:43] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking.sleeping.campfire' (added by mods [andromeda]) disables it and children
-[18:17:43] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking.sleeping.campfire' (added by mods [andromeda]) disables it and children
-[18:17:43] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking.sleeping.campfire' (added by mods [andromeda]) disables it and children
-[18:17:43] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
-[18:17:44] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
-[18:17:44] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/BuddingBushBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/BuddingBushBlock)
-[18:17:44] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.BuddingBushBlock was not found seasonsdelightcompat.mixins.json:BuddingBushBlockMixin from mod seasonsdelightcompat
-[18:17:44] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/BuddingTomatoBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/BuddingTomatoBlock)
-[18:17:44] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.BuddingTomatoBlock was not found seasonsdelightcompat.mixins.json:BuddingTomatoBlockMixin from mod seasonsdelightcompat
-[18:17:44] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/MushroomColonyBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/MushroomColonyBlock)
-[18:17:44] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.MushroomColonyBlock was not found seasonsdelightcompat.mixins.json:MushroomColonyBlockMixin from mod seasonsdelightcompat
-[18:17:44] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/RiceCropBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/RiceCropBlock)
-[18:17:44] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.RiceCropBlock was not found seasonsdelightcompat.mixins.json:RiceCropBlockMixin from mod seasonsdelightcompat
-[18:17:44] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/TomatoVineBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/TomatoVineBlock)
-[18:17:44] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.TomatoVineBlock was not found seasonsdelightcompat.mixins.json:TomatoVineBlockMixin from mod seasonsdelightcompat
-[18:17:44] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
-[18:17:44] [main/WARN]: @Mixin target net.minecraft.class_465 was not found zenith.mixins.json:AbstractContainerScreenAccessor from mod zenith
-[18:17:44] [main/WARN]: Error loading class: net/minecraft/class_332 (java.lang.ClassNotFoundException: net/minecraft/class_332)
-[18:17:44] [main/WARN]: @Mixin target net.minecraft.class_332 was not found zenith.mixins.json:GuiGraphicsAccessor from mod zenith
-[18:17:44] [main/WARN]: Error loading class: net/minecraft/class_8002 (java.lang.ClassNotFoundException: net/minecraft/class_8002)
-[18:17:44] [main/WARN]: @Mixin target net.minecraft.class_8002 was not found zenith.mixins.json:TooltipRenderUtilAccessor from mod zenith
-[18:17:44] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[18:17:44] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[18:17:44] [main/WARN]: Error loading class: net/minecraft/class_8609 (java.lang.ClassNotFoundException: net/minecraft/class_8609)
-[18:17:44] [main/ERROR]: crab.mixins.json:ServerPlayNetworkHandlerMixin from mod crab: Super class 'net.minecraft.class_8609' of ServerPlayNetworkHandlerMixin was not found in the hierarchy of target class 'net/minecraft/class_3244'
+[18:51:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Zombie/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:51:01] [main/INFO]: Compatibility level set to JAVA_17
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[18:51:02] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.2.14 (*) (defined in c2me)
+[18:51:02] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[18:51:02] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[18:51:02] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[18:51:02] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[18:51:02] [main/WARN]: Reference map 'CerbonsAPI-Fabric-1.20.1-fabric-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:02] [main/WARN]: Reference map 'codec-config-api-refmap.json' for codec-config-api.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:02] [main/WARN]: Reference map 'connectedglass.mixins.refmap.json' for connectedglass.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:02] [main/WARN]: Reference map 'graveyard-FABRIC-fabric-refmap.json' for graveyard-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:02] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 5 override(s) found
+[18:51:02] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:02] [main/INFO]: Loaded configuration file for ModernFix 5.19.0+mc1.20.1: 60 options available, 4 override(s) found
+[18:51:02] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[18:51:02] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[18:51:02] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[18:51:02] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[18:51:02] [main/INFO]: Applying Nashorn fix
+[18:51:02] [main/WARN]: Reference map 'mysticaloaktree-fabric-refmap.json' for mysticaloaktree.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:02] [main/WARN]: Reference map 'mysticaloaktree-common-refmap.json' for mysticaloaktree-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:02] [main/WARN]: Reference map 'oceansdelight-refmap.json' for oceansdelight.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:03] [main/WARN]: Reference map 'resourceconfigapi.refmap.json' for resourceconfigapi.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:03] [main/WARN]: Reference map 'resourceconfigapi.refmap.json' for resourceconfigapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:03] [main/WARN]: Reference map 'resourcelibrary.refmap.json' for resourcelibrary.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:03] [main/WARN]: Reference map 'resourcelibrary.refmap.json' for resourcelibrary.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:03] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:03] [main/WARN]: Reference map 'smarterfarmers-fabric-refmap.json' for smarterfarmers.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:03] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:03] [main/WARN]: Reference map 'weaponmaster-client-only-fabric-1.20.1-refmap.json' for weaponmaster.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:03] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:03] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:51:03] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[18:51:03] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[18:51:03] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[18:51:03] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[18:51:03] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[18:51:03] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[18:51:04] [main/WARN]: Error loading class: net/minecraft/class_636 (java.lang.ClassNotFoundException: net/minecraft/class_636)
+[18:51:04] [main/WARN]: @Mixin target net.minecraft.class_636 was not found crab.mixins.json:ClientPlayerInteractionManagerMixin from mod crab
+[18:51:04] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[18:51:04] [main/WARN]: @Mixin target net.minecraft.class_906 was not found go-fish.mixins.json:FishingBobberEntityRendererMixin from mod go-fish
+[18:51:04] [main/WARN]: Error loading class: net/minecraft/class_702 (java.lang.ClassNotFoundException: net/minecraft/class_702)
+[18:51:04] [main/WARN]: @Mixin target net.minecraft.class_702 was not found go-fish.mixins.json:ParticleManagerMixin from mod go-fish
+[18:51:04] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[18:51:04] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.MultiTickTaskMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[18:51:04] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[18:51:04] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking.sleeping.campfire' (added by mods [andromeda]) disables it and children
+[18:51:04] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking.sleeping.campfire' (added by mods [andromeda]) disables it and children
+[18:51:04] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking.sleeping.campfire' (added by mods [andromeda]) disables it and children
+[18:51:04] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
+[18:51:04] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[18:51:04] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/BuddingBushBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/BuddingBushBlock)
+[18:51:04] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.BuddingBushBlock was not found seasonsdelightcompat.mixins.json:BuddingBushBlockMixin from mod seasonsdelightcompat
+[18:51:04] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/BuddingTomatoBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/BuddingTomatoBlock)
+[18:51:04] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.BuddingTomatoBlock was not found seasonsdelightcompat.mixins.json:BuddingTomatoBlockMixin from mod seasonsdelightcompat
+[18:51:04] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/MushroomColonyBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/MushroomColonyBlock)
+[18:51:04] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.MushroomColonyBlock was not found seasonsdelightcompat.mixins.json:MushroomColonyBlockMixin from mod seasonsdelightcompat
+[18:51:04] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/RiceCropBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/RiceCropBlock)
+[18:51:04] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.RiceCropBlock was not found seasonsdelightcompat.mixins.json:RiceCropBlockMixin from mod seasonsdelightcompat
+[18:51:04] [main/WARN]: Error loading class: com/nhoryzon/mc/farmersdelight/block/TomatoVineBlock (java.lang.ClassNotFoundException: com/nhoryzon/mc/farmersdelight/block/TomatoVineBlock)
+[18:51:04] [main/WARN]: @Mixin target com.nhoryzon.mc.farmersdelight.block.TomatoVineBlock was not found seasonsdelightcompat.mixins.json:TomatoVineBlockMixin from mod seasonsdelightcompat
+[18:51:05] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[18:51:05] [main/WARN]: @Mixin target net.minecraft.class_465 was not found zenith.mixins.json:AbstractContainerScreenAccessor from mod zenith
+[18:51:05] [main/WARN]: Error loading class: net/minecraft/class_332 (java.lang.ClassNotFoundException: net/minecraft/class_332)
+[18:51:05] [main/WARN]: @Mixin target net.minecraft.class_332 was not found zenith.mixins.json:GuiGraphicsAccessor from mod zenith
+[18:51:05] [main/WARN]: Error loading class: net/minecraft/class_8002 (java.lang.ClassNotFoundException: net/minecraft/class_8002)
+[18:51:05] [main/WARN]: @Mixin target net.minecraft.class_8002 was not found zenith.mixins.json:TooltipRenderUtilAccessor from mod zenith
+[18:51:05] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[18:51:05] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[18:51:05] [main/WARN]: Error loading class: net/minecraft/class_8609 (java.lang.ClassNotFoundException: net/minecraft/class_8609)
+[18:51:05] [main/ERROR]: crab.mixins.json:ServerPlayNetworkHandlerMixin from mod crab: Super class 'net.minecraft.class_8609' of ServerPlayNetworkHandlerMixin was not found in the hierarchy of target class 'net/minecraft/class_3244'
 org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Super class 'net.minecraft.class_8609' of ServerPlayNetworkHandlerMixin was not found in the hierarchy of target class 'net/minecraft/class_3244'
 	at org.spongepowered.asm.mixin.transformer.MixinInfo$SubType$Standard.validate(MixinInfo.java:593) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
 	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:327) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
@@ -620,26 +620,26 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Super 
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[18:17:45] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
-[18:17:45] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
-[18:17:45] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
-[18:17:45] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
-[18:17:45] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
-[18:17:45] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
-[18:17:45] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
-[18:17:45] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
-[18:17:45] [main/INFO]: (Andromeda/Bootstrap) Andromeda(1.13.2-1.20.1-build.102) on Fabric(0.16.9)
-[18:17:45] [main/INFO]: (Andromeda/ModuleManager) Loading bootstrap configs!
-[18:17:45] [main/INFO]: (Andromeda/ModuleManager) No modules loaded!
-[18:17:45] [main/INFO]: Loaded local config
-[18:17:45] [main/INFO]: Loaded server config
-[18:17:45] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[18:17:52] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[18:17:52] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[18:17:52] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[18:17:53] [main/INFO]: Instancing error handler class me.melontini.andromeda.util.mixins.ErrorHandler
-[18:17:53] [main/INFO]: Instancing error handler class me.melontini.dark_matter.impl.crash_handler.MixinErrorHandler
-[18:17:53] [main/WARN]: Mixin apply for mod necronomicon failed necronomicon-common.mixins.json:item.AnimatedItemNameMixin from mod necronomicon -> net.minecraft.class_1799: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$dpd000$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
+[18:51:05] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
+[18:51:05] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
+[18:51:05] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
+[18:51:05] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
+[18:51:05] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
+[18:51:05] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
+[18:51:05] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[18:51:05] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[18:51:05] [main/INFO]: (Andromeda/Bootstrap) Andromeda(1.13.2-1.20.1-build.102) on Fabric(0.16.9)
+[18:51:05] [main/INFO]: (Andromeda/ModuleManager) Loading bootstrap configs!
+[18:51:05] [main/INFO]: (Andromeda/ModuleManager) No modules loaded!
+[18:51:06] [main/INFO]: Loaded local config
+[18:51:06] [main/INFO]: Loaded server config
+[18:51:06] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18:51:12] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[18:51:12] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[18:51:12] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[18:51:13] [main/INFO]: Instancing error handler class me.melontini.andromeda.util.mixins.ErrorHandler
+[18:51:13] [main/INFO]: Instancing error handler class me.melontini.dark_matter.impl.crash_handler.MixinErrorHandler
+[18:51:13] [main/WARN]: Mixin apply for mod necronomicon failed necronomicon-common.mixins.json:item.AnimatedItemNameMixin from mod necronomicon -> net.minecraft.class_1799: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$dpd000$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
 org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$dpd000$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
 	at org.spongepowered.asm.mixin.injection.selectors.TargetSelectors.validate(TargetSelectors.java:346) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
 	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:369) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
@@ -680,95 +680,95 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[18:17:57] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[18:17:57] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[18:17:58] [main/INFO]: Vanilla bootstrap took 8260 milliseconds
-[18:17:59] [main/INFO]: Reflections took 76 ms to scan 1 urls, producing 2 keys and 9 values
-[18:17:59] [main/INFO]: [rightclickharvest] Initializing VersionUtils
-[18:17:59] [main/INFO]: [rightclickharvest] VersionUtils initialized successfully
-[18:18:00] [main/INFO]: Loaded config amendments-common.json
-[18:18:01] [main/INFO]: [Animal Feeding Trough] Load Complete! Enjoy :D
-[18:18:01] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[18:18:01] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[18:18:01] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[18:18:01] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[18:18:01] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[18:18:01] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[18:18:01] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[18:18:01] [main/INFO]: Registered azurelib config for auto-sync function
-[18:18:01] [main/INFO]: Initializing Backported-Wolves Config.
-[18:18:01] [main/INFO]: backported_wolves registered wolf spawns successfully.
-[18:18:01] [main/INFO]: Constructing common components for barteringstation:main
-[18:18:01] [main/INFO]: Better Archeology says Hello
-[18:18:01] [main/INFO]: [STDOUT]: All 5 have been set properly
-[18:18:01] [main/INFO]: Registering Items from betterarcheology
-[18:18:01] [main/INFO]: Registering Blocks from betterarcheology
-[18:18:01] [main/INFO]: ModEntityTypes of betterarcheology registered.
-[18:18:01] [main/INFO]: Registering Enchantments for betterarcheology
-[18:18:01] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 2 values
-[18:18:01] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[18:18:02] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[18:18:02] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[18:18:02] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[18:18:02] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:18:02] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[18:18:02] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[18:18:02] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[18:18:02] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[18:18:02] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:18:02] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:18:02] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[18:18:02] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[18:18:02] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[18:18:02] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:18:02] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[18:18:02] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[18:18:02] [main/INFO]: Constructing common components for blockrunner:main
-[18:18:02] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[18:18:02] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[18:18:02] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[18:18:02] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[18:18:02] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[18:18:02] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[18:18:02] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[18:18:02] [main/INFO]: Cactus Config is being initialized.
-[18:18:02] [main/INFO]: Hello Fabric world!
-[18:18:02] [main/INFO]: [STDOUT]: All 6 have been set properly
-[18:18:02] [main/INFO]: Loading Collective version 7.74.
-[18:18:03] [Worker-Main-1/INFO]: Loading official->intermediary mappings...
-[18:18:03] [Worker-Main-2/INFO]: Loading official->mojmap mappings...
-[18:18:03] [main/INFO]: Merging mappings...
-[18:18:05] [main/INFO]: Initializing network...
-[18:18:05] [main/INFO]: Initialized network!
-[18:18:05] [main/INFO]: [STDOUT]: All 4 have been set properly
-[18:18:05] [main/INFO]: [STDOUT]: Registered Mod Items for crab
-[18:18:07] [main/INFO]: general
-[18:18:07] [main/INFO]: individual
-[18:18:07] [main/INFO]: Constructing common components for cutthrough:main
-[18:18:07] [main/INFO]: Deserializing DDConfig from './config/deeperdarker.json5'
-[18:18:07] [main/INFO]: Bypassed Mojang DFU
-[18:18:07] [main/INFO]: Instantiating Mojang DFU
-[18:18:08] [main/INFO]: Hello Fabric world!
-[18:18:08] [main/INFO]: Constructing common components for easyanvils:main
-[18:18:08] [main/INFO]: Constructing common components for easymagic:main
-[18:18:08] [main/INFO]: Constructing common components for easyshulkerboxes:main
-[18:18:08] [main/INFO]: Constructing common components for echochest:main
-[18:18:08] [main/INFO]: Mod loaded successfully
-[18:18:08] [main/INFO]: Registering Item Group for ends_delight
-[18:18:08] [main/INFO]: Registering Mod Blocks for ends_delight
-[18:18:08] [main/INFO]: Registering Mod Features for ends_delight
-[18:18:08] [main/INFO]: ExpandAbility here, who dis?
-[18:18:08] [main/INFO]: Hello Fabric world!
-[18:18:08] [main/INFO]: Look at the cleanse, look at the moves!
-[18:18:08] [Placebo (FakerLib) Patreon Wing Loader/INFO]: Loading patreon wing data...
-[18:18:08] [Placebo (FakerLib) Patreon Trail Loader/INFO]: Loading patreon trails data...
-[18:18:09] [Placebo (FakerLib) Patreon Trail Loader/INFO]: Loaded 33 patreon trails.
-[18:18:09] [Placebo (FakerLib) Patreon Wing Loader/INFO]: Loaded 25 patreon wings.
-[18:18:09] [ForkJoinPool.commonPool-worker-1/INFO]: [Friends&Foes] An update is available! You are using 2.0.15 version, but the latest version is 3.0.6.
-[18:18:09] [main/INFO]: Registered JSON trade offer adapter.
-[18:18:09] [main/INFO]: Constructing common components for hangglider:main
-[18:18:09] [main/INFO]: Horse Buff Initialized
-[18:18:09] [main/ERROR]: Failed to load config: ./config/iceandfire/iaf-common.json
+[18:51:17] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[18:51:17] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[18:51:18] [main/INFO]: Vanilla bootstrap took 8733 milliseconds
+[18:51:19] [main/INFO]: Reflections took 83 ms to scan 1 urls, producing 2 keys and 9 values
+[18:51:20] [main/INFO]: [rightclickharvest] Initializing VersionUtils
+[18:51:20] [main/INFO]: [rightclickharvest] VersionUtils initialized successfully
+[18:51:21] [main/INFO]: Loaded config amendments-common.json
+[18:51:21] [main/INFO]: [Animal Feeding Trough] Load Complete! Enjoy :D
+[18:51:21] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[18:51:22] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[18:51:22] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[18:51:22] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[18:51:22] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[18:51:22] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[18:51:22] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[18:51:22] [main/INFO]: Registered azurelib config for auto-sync function
+[18:51:22] [main/INFO]: Initializing Backported-Wolves Config.
+[18:51:22] [main/INFO]: backported_wolves registered wolf spawns successfully.
+[18:51:22] [main/INFO]: Constructing common components for barteringstation:main
+[18:51:22] [main/INFO]: Better Archeology says Hello
+[18:51:22] [main/INFO]: [STDOUT]: All 5 have been set properly
+[18:51:22] [main/INFO]: Registering Items from betterarcheology
+[18:51:22] [main/INFO]: Registering Blocks from betterarcheology
+[18:51:22] [main/INFO]: ModEntityTypes of betterarcheology registered.
+[18:51:22] [main/INFO]: Registering Enchantments for betterarcheology
+[18:51:22] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 1 keys and 2 values
+[18:51:22] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[18:51:23] [main/INFO]: Reflections took 19 ms to scan 1 urls, producing 1 keys and 3 values
+[18:51:23] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[18:51:23] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[18:51:23] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:51:23] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
+[18:51:23] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:51:23] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[18:51:23] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[18:51:23] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[18:51:23] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[18:51:23] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:51:23] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:51:23] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[18:51:23] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:51:23] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:51:23] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[18:51:23] [main/INFO]: Constructing common components for blockrunner:main
+[18:51:23] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[18:51:23] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[18:51:23] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[18:51:23] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[18:51:23] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[18:51:23] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[18:51:23] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[18:51:23] [main/INFO]: Cactus Config is being initialized.
+[18:51:23] [main/INFO]: Hello Fabric world!
+[18:51:23] [main/INFO]: [STDOUT]: All 6 have been set properly
+[18:51:24] [main/INFO]: Loading Collective version 7.74.
+[18:51:24] [Worker-Main-1/INFO]: Loading official->intermediary mappings...
+[18:51:24] [Worker-Main-2/INFO]: Loading official->mojmap mappings...
+[18:51:25] [main/INFO]: Merging mappings...
+[18:51:26] [main/INFO]: Initializing network...
+[18:51:26] [main/INFO]: Initialized network!
+[18:51:26] [main/INFO]: [STDOUT]: All 4 have been set properly
+[18:51:26] [main/INFO]: [STDOUT]: Registered Mod Items for crab
+[18:51:28] [main/INFO]: general
+[18:51:28] [main/INFO]: individual
+[18:51:28] [main/INFO]: Constructing common components for cutthrough:main
+[18:51:28] [main/INFO]: Deserializing DDConfig from './config/deeperdarker.json5'
+[18:51:28] [main/INFO]: Bypassed Mojang DFU
+[18:51:28] [main/INFO]: Instantiating Mojang DFU
+[18:51:29] [main/INFO]: Hello Fabric world!
+[18:51:29] [main/INFO]: Constructing common components for easyanvils:main
+[18:51:29] [main/INFO]: Constructing common components for easymagic:main
+[18:51:29] [main/INFO]: Constructing common components for easyshulkerboxes:main
+[18:51:29] [main/INFO]: Constructing common components for echochest:main
+[18:51:29] [main/INFO]: Mod loaded successfully
+[18:51:29] [main/INFO]: Registering Item Group for ends_delight
+[18:51:29] [main/INFO]: Registering Mod Blocks for ends_delight
+[18:51:29] [main/INFO]: Registering Mod Features for ends_delight
+[18:51:29] [main/INFO]: ExpandAbility here, who dis?
+[18:51:29] [main/INFO]: Hello Fabric world!
+[18:51:29] [main/INFO]: Look at the cleanse, look at the moves!
+[18:51:29] [Placebo (FakerLib) Patreon Wing Loader/INFO]: Loading patreon wing data...
+[18:51:29] [Placebo (FakerLib) Patreon Trail Loader/INFO]: Loading patreon trails data...
+[18:51:30] [Placebo (FakerLib) Patreon Trail Loader/INFO]: Loaded 33 patreon trails.
+[18:51:30] [Placebo (FakerLib) Patreon Wing Loader/INFO]: Loaded 25 patreon wings.
+[18:51:30] [ForkJoinPool.commonPool-worker-3/INFO]: [Friends&Foes] An update is available! You are using 2.0.15 version, but the latest version is 3.0.6.
+[18:51:30] [main/INFO]: Registered JSON trade offer adapter.
+[18:51:30] [main/INFO]: Constructing common components for hangglider:main
+[18:51:30] [main/INFO]: Horse Buff Initialized
+[18:51:30] [main/ERROR]: Failed to load config: ./config/iceandfire/iaf-common.json
 java.nio.file.NoSuchFileException: ./config/iceandfire/iaf-common.json
 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
@@ -794,18 +794,18 @@ java.nio.file.NoSuchFileException: ./config/iceandfire/iaf-common.json
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[18:18:10] [main/INFO]: Constructing common components for illagerinvasion:main
-[18:18:10] [main/INFO]: Registering configs
-[18:18:10] [main/INFO]: Registering blocks
-[18:18:10] [main/INFO]: Registering items
-[18:18:10] [main/INFO]: Registering item groups
-[18:18:10] [main/INFO]: Registering entities
-[18:18:10] [main/INFO]: Registering tags
-[18:18:10] [main/INFO]: Registering event handlers
-[18:18:10] [main/INFO]: Setting up file watchers
-[18:18:10] [main/INFO]: [jamlib] Mod initialized!
-[18:18:10] [main/INFO]: 1 Jupiter entrypoint(s) detected: jupiter:jupiter
-[18:18:10] [main/ERROR]: Failed to load config: ./config/jupiter.json
+[18:51:31] [main/INFO]: Constructing common components for illagerinvasion:main
+[18:51:31] [main/INFO]: Registering configs
+[18:51:31] [main/INFO]: Registering blocks
+[18:51:31] [main/INFO]: Registering items
+[18:51:31] [main/INFO]: Registering item groups
+[18:51:31] [main/INFO]: Registering entities
+[18:51:31] [main/INFO]: Registering tags
+[18:51:31] [main/INFO]: Registering event handlers
+[18:51:31] [main/INFO]: Setting up file watchers
+[18:51:31] [main/INFO]: [jamlib] Mod initialized!
+[18:51:31] [main/INFO]: 1 Jupiter entrypoint(s) detected: jupiter:jupiter
+[18:51:31] [main/ERROR]: Failed to load config: ./config/jupiter.json
 java.nio.file.NoSuchFileException: ./config/jupiter.json
 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
@@ -832,43 +832,43 @@ java.nio.file.NoSuchFileException: ./config/jupiter.json
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[18:18:10] [main/INFO]: Processing 3 KiwiModule annotations
-[18:18:10] [main/INFO]: Module [kiwi:contributors] initialized
-[18:18:10] [main/INFO]: Module [snowrealmagic:core] initialized
-[18:18:10] [main/INFO]: 		block: 7, block_entity_type: 2, entity_type: 1, loot_pool_entry_type: 1
-[18:18:10] [main/INFO]: Module [kiwi:data] initialized
-[18:18:10] [main/INFO]: 		recipe_serializer: 3
-[18:18:10] [main/INFO]: [KONKRETE] Successfully initialized!
-[18:18:10] [main/INFO]: [KONKRETE] Server-side libs ready to use!
-[18:18:10] [main/INFO]: Missing Wilds for Fabric is loading!
-[18:18:10] [main/INFO]: Definitely not up to no good
-[18:18:11] [main/INFO]: Constructing common components for mutantmonsters:main
-[18:18:11] [main/INFO]: Loading common config for mutantmonsters
-[18:18:11] [Thread-2/INFO]: Reloading common config for mutantmonsters
-[18:18:11] [Thread-2/INFO]: Reloading common config for mutantmonsters
-[18:18:11] [main/INFO]: Necronomicon Initialized
-[18:18:11] [main/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
-[18:18:11] [main/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
-[18:18:11] [main/INFO]: Registering Items for netherdepthsupgrade
-[18:18:11] [main/INFO]: Registering Blocks for netherdepthsupgrade
-[18:18:11] [main/INFO]: Registering Block Entities for netherdepthsupgrade
-[18:18:11] [main/INFO]: Registering tabs for netherdepthsupgrade
-[18:18:11] [main/INFO]: Registering Entity Types for netherdepthsupgrade
-[18:18:11] [main/INFO]: Registering Effects for netherdepthsupgrade
-[18:18:11] [main/INFO]: Registering Potions for netherdepthsupgrade
-[18:18:11] [main/INFO]: Registering Enchantments for netherdepthsupgrade
-[18:18:11] [main/INFO]: Registering Particles for netherdepthsupgrade
-[18:18:11] [main/INFO]: Registering Features for netherdepthsupgrade
-[18:18:11] [main/INFO]: Registering ConfiguredFeatures for netherdepthsupgrade
-[18:18:11] [main/INFO]: Registering PlacedFeatures for netherdepthsupgrade
-[18:18:11] [main/INFO]: Registering Structures for netherdepthsupgrade
-[18:18:11] [main/INFO]: Setting up compat for Farmers Delight
-[18:18:11] [main/INFO]: Loading Noisium.
-[18:18:11] [main/INFO]: Registering Items for oceansdelight
-[18:18:11] [main/INFO]: Registering Blocks for oceansdelight
-[18:18:11] [main/INFO]: Registering tabs for oceansdelight
-[18:18:11] [main/INFO]: chyz: How could you do this to me, Blod. I loved you like a guy I don't know in real life :(
-[18:18:11] [main/ERROR]: Failed to load book seasonsextras:seasonal_compendium defined by mod seasonsextras, skipping
+[18:51:31] [main/INFO]: Processing 3 KiwiModule annotations
+[18:51:31] [main/INFO]: Module [kiwi:contributors] initialized
+[18:51:31] [main/INFO]: Module [snowrealmagic:core] initialized
+[18:51:31] [main/INFO]: 		block: 7, block_entity_type: 2, entity_type: 1, loot_pool_entry_type: 1
+[18:51:31] [main/INFO]: Module [kiwi:data] initialized
+[18:51:31] [main/INFO]: 		recipe_serializer: 3
+[18:51:31] [main/INFO]: [KONKRETE] Successfully initialized!
+[18:51:31] [main/INFO]: [KONKRETE] Server-side libs ready to use!
+[18:51:32] [main/INFO]: Missing Wilds for Fabric is loading!
+[18:51:32] [main/INFO]: Definitely not up to no good
+[18:51:32] [main/INFO]: Constructing common components for mutantmonsters:main
+[18:51:32] [main/INFO]: Loading common config for mutantmonsters
+[18:51:32] [Thread-2/INFO]: Reloading common config for mutantmonsters
+[18:51:32] [Thread-2/INFO]: Reloading common config for mutantmonsters
+[18:51:32] [main/INFO]: Necronomicon Initialized
+[18:51:32] [main/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[18:51:32] [main/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[18:51:32] [main/INFO]: Registering Items for netherdepthsupgrade
+[18:51:32] [main/INFO]: Registering Blocks for netherdepthsupgrade
+[18:51:32] [main/INFO]: Registering Block Entities for netherdepthsupgrade
+[18:51:32] [main/INFO]: Registering tabs for netherdepthsupgrade
+[18:51:32] [main/INFO]: Registering Entity Types for netherdepthsupgrade
+[18:51:32] [main/INFO]: Registering Effects for netherdepthsupgrade
+[18:51:32] [main/INFO]: Registering Potions for netherdepthsupgrade
+[18:51:32] [main/INFO]: Registering Enchantments for netherdepthsupgrade
+[18:51:32] [main/INFO]: Registering Particles for netherdepthsupgrade
+[18:51:32] [main/INFO]: Registering Features for netherdepthsupgrade
+[18:51:32] [main/INFO]: Registering ConfiguredFeatures for netherdepthsupgrade
+[18:51:32] [main/INFO]: Registering PlacedFeatures for netherdepthsupgrade
+[18:51:32] [main/INFO]: Registering Structures for netherdepthsupgrade
+[18:51:32] [main/INFO]: Setting up compat for Farmers Delight
+[18:51:32] [main/INFO]: Loading Noisium.
+[18:51:32] [main/INFO]: Registering Items for oceansdelight
+[18:51:32] [main/INFO]: Registering Blocks for oceansdelight
+[18:51:32] [main/INFO]: Registering tabs for oceansdelight
+[18:51:32] [main/INFO]: idwtialsimmoedm - I didn't want to install a library so I made my own enchantment descriptions mod
+[18:51:32] [main/ERROR]: Failed to load book seasonsextras:seasonal_compendium defined by mod seasonsextras, skipping
 java.lang.IllegalArgumentException: Book seasonsextras:seasonal_compendium has use_resource_pack set to false. This behaviour was removed in 1.20. The book author should enable this flag and move all book contents clientside to /assets/, leaving the book.json in /data/. See https://vazkiimods.github.io/Patchouli/docs/upgrading/upgrade-guide-120 for details.
 	at vazkii.patchouli.common.book.Book.<init>(Book.java:145) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
 	at vazkii.patchouli.common.book.BookRegistry.loadBook(BookRegistry.java:90) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
@@ -884,7 +884,7 @@ java.lang.IllegalArgumentException: Book seasonsextras:seasonal_compendium has u
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[18:18:11] [main/ERROR]: Failed to load book consistency_plus:guidebook defined by mod consistency_plus, skipping
+[18:51:32] [main/ERROR]: Failed to load book consistency_plus:guidebook defined by mod consistency_plus, skipping
 java.lang.IllegalArgumentException: Book consistency_plus:guidebook has use_resource_pack set to false. This behaviour was removed in 1.20. The book author should enable this flag and move all book contents clientside to /assets/, leaving the book.json in /data/. See https://vazkiimods.github.io/Patchouli/docs/upgrading/upgrade-guide-120 for details.
 	at vazkii.patchouli.common.book.Book.<init>(Book.java:145) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
 	at vazkii.patchouli.common.book.BookRegistry.loadBook(BookRegistry.java:90) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
@@ -900,63 +900,63 @@ java.lang.IllegalArgumentException: Book consistency_plus:guidebook has use_reso
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[18:18:11] [main/INFO]: [Ping-Wheel] Init
-[18:18:11] [main/INFO]: [Ping-Wheel] Loaded ServerConfig(defaultChannelMode=auto, msToRegenerate=1000, rateLimit=5)
-[18:18:12] [main/INFO]: Registering C2S receiver with id powah:packet
-[18:18:12] [main/INFO]: Constructing common components for puzzlesapi:iteminteractions
-[18:18:12] [main/INFO]: Constructing common components for puzzlesapi:slotcycling
-[18:18:12] [main/INFO]: Constructing common components for puzzlesapi:limitlesscontainers
-[18:18:12] [main/INFO]: Constructing common components for puzzlesapi:statues
-[18:18:12] [main/INFO]: Constructing common components for puzzleslib:main
-[18:18:12] [main/INFO]: Registering Paintings for reimaginingpotatoes
-[18:18:12] [main/INFO]: Reflections took 11 ms to scan 1 urls, producing 6 keys and 36 values
-[18:18:12] [main/INFO]: Reflections took 8 ms to scan 1 urls, producing 6 keys and 36 values
-[18:18:12] [main/INFO]: Registering Ribbit instruments...
-[18:18:12] [main/INFO]: Registering Ribbit umbrella types...
-[18:18:12] [main/INFO]: Registering Ribbit professions...
-[18:18:12] [main/INFO]: Registering Ribbit data serializers...
-[18:18:12] [main/INFO]: [jamlib] Registered config for rightclickharvest
-[18:18:12] [main/INFO]: [rightclickharvest] Mod initialized!
-[18:18:12] [main/INFO]: [Fabric Seasons] Trying to read config file...
-[18:18:12] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
-[18:18:12] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
-[18:18:12] [main/INFO]: [Fabric Seasons] Successfully loaded seasonsdelightcompat 1.0 for farmersdelight 1.3.9
-[18:18:12] [main/INFO]: [Fabric Seasons] Successfully loaded seasonsterralithcompat 1.0 for terralith 2.3.7
-[18:18:12] [main/INFO]: [STDOUT]: /workspaces/Zombie/servidor_minecraft/config
-[18:18:12] [main/INFO]: Loading SnufflesConfig...
-[18:18:13] [main/INFO]: Reading config values from file.
-[18:18:13] [main/INFO]: Hello Fabric world!
-[18:18:14] [main/INFO]: File exists, reading config for elocindev.tierify.config.CommonConfig.
-[18:18:14] [main/INFO]: Config for elocindev.tierify.config.CommonConfig read successfully.
-[18:18:14] [main/INFO]: !?
-[18:18:14] [main/INFO]: Registering Mod Items for torchesntrinkets
-[18:18:14] [main/INFO]: Registering Item Groups fortorchesntrinkets
-[18:18:14] [main/INFO]: Constructing common components for universalbonemeal:main
-[18:18:14] [main/INFO]: Constructing common components for visualworkbench:main
-[18:18:14] [main/INFO]: [STDOUT]: All 81 have been set properly
-[18:18:14] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[18:18:14] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[18:18:14] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:18:14] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:18:14] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[18:18:14] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[18:18:15] [main/INFO]: Have fun curing your zombie friends!
-[18:18:15] [main/INFO]: Initialized block sets in 28ms
-[18:18:15] [main/INFO]: Loaded config smarterfarmers-common.json
-[18:18:15] [main/INFO]: Loaded config sawmill-common.json
-[18:18:15] [main/INFO]: Initialized color sets in 87ms
-[18:18:15] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[18:18:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:18:19] [main/WARN]: Adding spell_power:fire to saved/remote registry.
-[18:18:19] [main/WARN]: Adding spell_power:frost to saved/remote registry.
-[18:18:19] [main/WARN]: Adding spell_power:arcane to saved/remote registry.
-[18:18:19] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[18:18:20] [main/INFO]: Loading config file lenientdeath.json5
-[18:18:20] [Worker-Main-1/ERROR]: Couldn't load tag frozenlib:dont_emit_use_game_events as it is missing following references: deeperdarker:transmitter (from fabric)
-[18:18:22] [Worker-Main-1/ERROR]: Error while parsing loot table decoration entry. Found jungle_temple. Defaulting to MANSION
-[18:18:22] [Worker-Main-1/ERROR]: Error while parsing loot table decoration entry. Found jungle_temple. Defaulting to MANSION
-[18:18:22] [main/INFO]: Intercepted tag results
-[18:18:29] [main/ERROR]: Parsing error loading recipe spellbladenext:eviscerateoil
+[18:51:32] [main/INFO]: [Ping-Wheel] Init
+[18:51:32] [main/INFO]: [Ping-Wheel] Loaded ServerConfig(defaultChannelMode=auto, msToRegenerate=1000, rateLimit=5)
+[18:51:33] [main/INFO]: Registering C2S receiver with id powah:packet
+[18:51:33] [main/INFO]: Constructing common components for puzzlesapi:iteminteractions
+[18:51:33] [main/INFO]: Constructing common components for puzzlesapi:slotcycling
+[18:51:33] [main/INFO]: Constructing common components for puzzlesapi:limitlesscontainers
+[18:51:33] [main/INFO]: Constructing common components for puzzlesapi:statues
+[18:51:33] [main/INFO]: Constructing common components for puzzleslib:main
+[18:51:33] [main/INFO]: Registering Paintings for reimaginingpotatoes
+[18:51:33] [main/INFO]: Reflections took 12 ms to scan 1 urls, producing 6 keys and 36 values
+[18:51:33] [main/INFO]: Reflections took 13 ms to scan 1 urls, producing 6 keys and 36 values
+[18:51:33] [main/INFO]: Registering Ribbit instruments...
+[18:51:33] [main/INFO]: Registering Ribbit umbrella types...
+[18:51:33] [main/INFO]: Registering Ribbit professions...
+[18:51:33] [main/INFO]: Registering Ribbit data serializers...
+[18:51:33] [main/INFO]: [jamlib] Registered config for rightclickharvest
+[18:51:33] [main/INFO]: [rightclickharvest] Mod initialized!
+[18:51:33] [main/INFO]: [Fabric Seasons] Trying to read config file...
+[18:51:33] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
+[18:51:33] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
+[18:51:33] [main/INFO]: [Fabric Seasons] Successfully loaded seasonsdelightcompat 1.0 for farmersdelight 1.3.9
+[18:51:33] [main/INFO]: [Fabric Seasons] Successfully loaded seasonsterralithcompat 1.0 for terralith 2.3.7
+[18:51:34] [main/INFO]: [STDOUT]: /workspaces/Zombie/servidor_minecraft/config
+[18:51:34] [main/INFO]: Loading SnufflesConfig...
+[18:51:34] [main/INFO]: Reading config values from file.
+[18:51:34] [main/INFO]: Hello Fabric world!
+[18:51:35] [main/INFO]: File exists, reading config for elocindev.tierify.config.CommonConfig.
+[18:51:35] [main/INFO]: Config for elocindev.tierify.config.CommonConfig read successfully.
+[18:51:35] [main/INFO]: !?
+[18:51:35] [main/INFO]: Registering Mod Items for torchesntrinkets
+[18:51:35] [main/INFO]: Registering Item Groups fortorchesntrinkets
+[18:51:35] [main/INFO]: Constructing common components for universalbonemeal:main
+[18:51:35] [main/INFO]: Constructing common components for visualworkbench:main
+[18:51:35] [main/INFO]: [STDOUT]: All 81 have been set properly
+[18:51:35] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[18:51:35] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[18:51:35] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:51:35] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:51:35] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[18:51:35] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[18:51:36] [main/INFO]: Have fun curing your zombie friends!
+[18:51:36] [main/INFO]: Initialized block sets in 29ms
+[18:51:36] [main/INFO]: Loaded config smarterfarmers-common.json
+[18:51:36] [main/INFO]: Loaded config sawmill-common.json
+[18:51:36] [main/INFO]: Initialized color sets in 65ms
+[18:51:37] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[18:51:37] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:51:40] [main/WARN]: Adding spell_power:fire to saved/remote registry.
+[18:51:40] [main/WARN]: Adding spell_power:frost to saved/remote registry.
+[18:51:40] [main/WARN]: Adding spell_power:arcane to saved/remote registry.
+[18:51:40] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[18:51:41] [main/INFO]: Loading config file lenientdeath.json5
+[18:51:42] [Worker-Main-2/ERROR]: Couldn't load tag frozenlib:dont_emit_use_game_events as it is missing following references: deeperdarker:transmitter (from fabric)
+[18:51:43] [Worker-Main-1/ERROR]: Error while parsing loot table decoration entry. Found jungle_temple. Defaulting to MANSION
+[18:51:43] [Worker-Main-1/ERROR]: Error while parsing loot table decoration entry. Found jungle_temple. Defaulting to MANSION
+[18:51:43] [main/INFO]: Intercepted tag results
+[18:51:50] [main/ERROR]: Parsing error loading recipe spellbladenext:eviscerateoil
 com.google.gson.JsonSyntaxException: Unknown item 'spellbladenext:spelloil'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -981,7 +981,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'spellbladenext:spelloil'
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[18:18:29] [main/ERROR]: Parsing error loading recipe spellbladenext:finalstrikeoil
+[18:51:50] [main/ERROR]: Parsing error loading recipe spellbladenext:finalstrikeoil
 com.google.gson.JsonSyntaxException: Unknown item 'spellbladenext:spelloil'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1006,7 +1006,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'spellbladenext:spelloil'
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[18:18:29] [main/ERROR]: Parsing error loading recipe spellbladenext:tabula
+[18:51:50] [main/ERROR]: Parsing error loading recipe spellbladenext:tabula
 com.google.gson.JsonSyntaxException: Unknown item 'spellbladenext:tabula_rasa'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1029,8 +1029,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'spellbladenext:tabula_rasa'
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[18:18:29] [main/WARN]: Book consistency_plus:guidebook in recipe consistency_plus:guidebook does not exist!
-[18:18:29] [main/ERROR]: Parsing error loading recipe spellbladenext:flickerstrikeoil
+[18:51:50] [main/WARN]: Book consistency_plus:guidebook in recipe consistency_plus:guidebook does not exist!
+[18:51:50] [main/ERROR]: Parsing error loading recipe spellbladenext:flickerstrikeoil
 com.google.gson.JsonSyntaxException: Unknown item 'spellbladenext:spelloil'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1055,10 +1055,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'spellbladenext:spelloil'
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[18:18:29] [main/INFO]: Generating Sawmill Recipes
-[18:18:29] [main/INFO]: Generated Sawmill recipes in 279 milliseconds
-[18:18:29] [main/INFO]: Loaded 43 recipes
-[18:18:29] [main/ERROR]: Failed to load function watching:check
+[18:51:50] [main/INFO]: Generating Sawmill Recipes
+[18:51:50] [main/INFO]: Generated Sawmill recipes in 266 milliseconds
+[18:51:50] [main/INFO]: Loaded 43 recipes
+[18:51:50] [main/ERROR]: Failed to load function watching:check
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1074,207 +1074,368 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[18:18:29] [main/ERROR]: Parsing error loading custom advancement overweight_farming:husbandry/peel_overweight_onion: Failed to parse 'location' field
-[18:18:29] [main/ERROR]: Parsing error loading custom advancement naturescompass:natures_compass: Expected items to be a JsonArray, was "min...ss"
-[18:18:29] [main/ERROR]: Parsing error loading custom advancement overweight_farming:husbandry/unpeel_vegetables: Failed to parse 'location' field
-[18:18:29] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass: Expected items to be a JsonArray, was "min...ss"
-[18:18:29] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cobweb: Expected items to be a JsonArray, was "min...eb"
-[18:18:29] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cracked_stone_bricks: Expected items to be a JsonArray, was "min...ks"
-[18:18:30] [main/INFO]: Loaded 5455 advancements
-[18:18:30] [main/INFO]: Registered 16 gear_sets.
-[18:18:30] [main/INFO]: Registered 6 rarities.
-[18:18:30] [main/INFO]: Registered 81 affixes.
-[18:18:30] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:mythic for category helmetRequired: 3; Provided: 2
-[18:18:30] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:mythic for category bootsRequired: 3; Provided: 2
-[18:18:30] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category bowRequired: 5; Provided: 4
-[18:18:30] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category crossbowRequired: 5; Provided: 4
-[18:18:30] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category pickaxeRequired: 5; Provided: 4
-[18:18:30] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category shovelRequired: 5; Provided: 4
-[18:18:30] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category shieldRequired: 5; Provided: 4
-[18:18:30] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category helmetRequired: 4; Provided: 2
-[18:18:30] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category bootsRequired: 4; Provided: 2
-[18:18:30] [main/INFO]: Registered 19 gems.
-[18:18:30] [main/INFO]: Registered 65 affix_loot_entries.
-[18:18:30] [main/INFO]: Registered 17 bosses.
-[18:18:30] [main/INFO]: Registered 8 rogue_spawners.
-[18:18:30] [main/INFO]: Registered 5 minibosses.
-[18:18:30] [main/INFO]: Registered 28 wanderer_trades.
-[18:18:30] [main/INFO]: Registered 34 enchanting_stats.
-[18:18:30] [main/INFO]: Loading exposure lenses:
-[18:18:30] [main/INFO]: Lens [exposure:spyglass, FocalRange[min=55, max=200]] added.
-[18:18:30] [main/INFO]: [Fabric Seasons] Successfully loaded 33 custom crop configs.
-[18:18:30] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 105 translation keys
-[18:18:30] [main/INFO]: Loaded 156 recipes
-[18:18:30] [main/INFO]: Applied 12 data villager trades
-[18:18:31] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on stonecutter_recipe_tags.mixins.json:PlayerManagerMixin from mod stonecutter_recipe_tags::handler$ffp000$stonecutter_recipe_tags$stonecutterRecipeTags$afterSyncTagsOnPlayerConnect exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[18:18:31] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on stonecutter_recipe_tags.mixins.json:PlayerManagerMixin from mod stonecutter_recipe_tags::handler$ffp000$stonecutter_recipe_tags$stonecutterRecipeTags$afterSyncTagsOnDataPacksReloaded exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[18:18:31] [main/INFO]: Applied 4867 biome modifications to 192 of 192 new biomes in 133.5 ms
-[18:18:31] [Server thread/INFO]: Loading server config for barteringstation
-[18:18:31] [Server thread/INFO]: Loading server config for easyanvils
-[18:18:31] [Server thread/INFO]: Loading server config for easymagic
-[18:18:31] [Server thread/INFO]: Loading server config for hangglider
-[18:18:31] [Thread-2/INFO]: Reloading server config for hangglider
-[18:18:31] [Server thread/INFO]: Loading server config for illagerinvasion
-[18:18:31] [Thread-2/INFO]: Reloading server config for hangglider
-[18:18:31] [Server thread/INFO]: Loading server config for mutantmonsters
-[18:18:31] [Server thread/INFO]: Loading server config for puzzlesapi
-[18:18:31] [Thread-2/INFO]: Reloading server config for mutantmonsters
-[18:18:31] [Thread-2/INFO]: Reloading server config for mutantmonsters
-[18:18:31] [Server thread/INFO]: Loading server config for universalbonemeal
-[18:18:31] [Thread-2/INFO]: Reloading server config for universalbonemeal
-[18:18:31] [Thread-2/INFO]: Reloading server config for universalbonemeal
-[18:18:31] [Server thread/INFO]: Loading server configs...
-[18:18:31] [Server thread/INFO]: Reading config.
-[18:18:31] [Server thread/INFO]: Injecting Carpenter Village Houses
-[18:18:31] [Server thread/INFO]: [STDERR]: Spell Engine: Failed to parse spell: spellbladenext:spells/lightningsmite.json | Reason: com.google.gson.stream.MalformedJsonException: Expected name at line 12 column 4 path $.cast.animation
-[18:18:31] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 184421 bytes (in 19 string chunks with the size of 10000)
-[18:18:31] [Server thread/INFO]: Scanning class appeng.server.testplots.TestPlots for plots
-[18:18:31] [Server thread/INFO]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
-[18:18:31] [Server thread/INFO]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
-[18:18:31] [Server thread/INFO]: Scanning class appeng.server.testplots.P2PTestPlots for plots
-[18:18:31] [Server thread/INFO]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
-[18:18:31] [Server thread/INFO]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
-[18:18:31] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
-[18:18:31] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
-[18:18:31] [Server thread/INFO]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
-[18:18:31] [Server thread/INFO]: Scanning class appeng.server.testplots.QnbTestPlots for plots
-[18:18:31] [Server thread/INFO]: Scanning class appeng.server.testplots.GuidebookPlot for plots
-[18:18:31] [Server thread/INFO]: Scanning class appeng.server.testplots.SubnetPlots for plots
-[18:18:31] [Server thread/INFO]: Scanning class appeng.server.testplots.ChannelTests for plots
-[18:18:31] [Server thread/INFO]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
-[18:18:31] [Server thread/ERROR]: Registry 'terraform:boat' was empty after loading
-[18:18:31] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[18:18:31] [Server thread/INFO]: Loading properties
-[18:18:31] [Server thread/INFO]: Default game type: SURVIVAL
-[18:18:31] [Server thread/INFO]: Generating keypair
-[18:18:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:18:32] [Server thread/INFO]: Using epoll channel type
-[18:18:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:18:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:18:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:18:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:18:32] [Server thread/INFO]: Preparing level "world"
-[18:18:32] [Server thread/INFO]: Enforcing safe world random access
-[18:18:33] [Server thread/WARN]: Method overwrite conflict for computeValue in spellbladenext.mixins.json:AttributeMixin from mod spellbladenext, previously written by com.extraspellattributes.mixin.AttributeMixin. Skipping method.
-[18:18:33] [Server thread/WARN]: Method overwrite conflict for computeAdded in spellbladenext.mixins.json:AttributeMixin from mod spellbladenext, previously written by com.extraspellattributes.mixin.AttributeMixin. Skipping method.
-[18:18:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:18:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[18:18:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:18:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:18:45] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[18:18:45] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:18:46] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[18:18:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[18:18:47] [Worker-Main-3/INFO]: Preparing spawn area: 1%
-[18:18:47] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[18:18:48] [Worker-Main-1/INFO]: Preparing spawn area: 8%
-[18:18:49] [Worker-Main-2/INFO]: Preparing spawn area: 13%
-[18:18:49] [Worker-Main-3/INFO]: Preparing spawn area: 14%
-[18:18:49] [Worker-Main-3/INFO]: Preparing spawn area: 20%
-[18:18:50] [Worker-Main-2/INFO]: Preparing spawn area: 31%
-[18:18:50] [Worker-Main-2/INFO]: Preparing spawn area: 56%
-[18:18:51] [Worker-Main-2/INFO]: Preparing spawn area: 88%
-[18:18:51] [Server thread/INFO]: Time elapsed: 7697 ms
-[18:18:51] [Server thread/INFO]: Done (19.168s)! For help, type "help"
-[18:18:51] [Server thread/WARN]: Dedicated server took 90.216 seconds to load
-[18:18:51] [Server thread/INFO]: Start loading plugin from Applied Energistics 2
-[18:18:51] [Server thread/INFO]: Start loading plugin from Exposure
-[18:18:51] [Server thread/INFO]: Start loading plugin from Ice And Fire
-[18:18:51] [Server thread/INFO]: Start loading plugin from Jade
-[18:18:51] [Server thread/INFO]: Start loading plugin from Jade
-[18:18:51] [Server thread/INFO]: Start loading plugin from Jade
-[18:18:51] [Server thread/INFO]: Start loading plugin from Polymer (Core)
-[18:18:51] [Server thread/INFO]: Start loading plugin from Snow! Real Magic!
-[18:18:51] [Server thread/INFO]: Start loading plugin from Waystones
-[18:18:51] [Server thread/INFO]: Start loading plugin from Zenith
-[18:18:51] [Server thread/INFO]: Start loading plugin from Zenith
-[18:18:51] [Server thread/INFO]: Start loading plugin from Zenith
-[18:18:51] [Server thread/INFO]: Loaded values for 81 compatible attributes.
-[18:18:51] [Server thread/INFO]: Loaded 81 values from config.
-[18:18:51] [Server thread/INFO]: Saving config file. 81 entries.
-[18:18:51] [Server thread/INFO]: Applying changes for 81 attributes.
-[18:18:51] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[18:18:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2060ms or 41 ticks behind
-[18:19:05] [Server thread/INFO]: Incorrect argument for command
-[18:19:05] [Server thread/INFO]: ...unky start <--[HERE]
-[18:19:10] [Server thread/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
-[18:19:10] [Server thread/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
-[18:19:11] [Server thread/INFO]: jajas10[/127.107.82.112:57773] logged in with entity id 1325 at (-653.2785698584813, 75.0, 1565.8171386982629)
-[18:19:11] [Server thread/INFO]: Syncing config to jajas10 (232e27a6-2a84-3af0-a78d-243e5576f6c5)
-[18:19:11] [Netty Epoll Server IO #1/INFO]: [showmeyourskin] Client of jajas10 accepted server config.
-[18:19:12] [Server thread/INFO]: jajas10 joined the game
-[18:19:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2656ms or 53 ticks behind
-[18:19:18] [Netty Epoll Server IO #1/INFO]: Channel update: jajas10 -> default
-[18:19:27] [Server thread/INFO]: [Chunky] Task started in minecraft:overworld for the square region centered at 0, 0 with radius 500.
-[18:19:27] [IOWorker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 102 chunks (2.41%), ETA: 0:00:05, Rate: 708.3 cps, Current: 15, 4
-[18:19:28] [IOWorker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 897 chunks (21.23%), ETA: 0:00:04, Rate: 783.4 cps, Current: 23, 7
-[18:19:29] [IOWorker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1601 chunks (37.89%), ETA: 0:00:03, Rate: 726.4 cps, Current: 16, -16
-[18:19:30] [IOWorker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2489 chunks (58.91%), ETA: 0:00:02, Rate: 768.4 cps, Current: -27, -7
-[18:19:31] [IOWorker-1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3525 chunks (83.43%), ETA: 0:00:00, Rate: 831.4 cps, Current: -22, 24
-[18:19:32] [IOWorker-1/INFO]: [Chunky] Task finished for minecraft:overworld. Processed: 4225 chunks (100.00%), Total time: 0:00:04
-[18:19:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5807ms or 116 ticks behind
-[18:20:02] [Server thread/INFO]: iLeik_Z[/127.34.1.247:37343] logged in with entity id 1760 at (269.4226896066942, 144.0, 2585.4441370882905)
-[18:20:02] [Server thread/INFO]: Syncing config to iLeik_Z (58688dda-f7c3-323b-8e47-a50b24f76bfd)
-[18:20:02] [Server thread/INFO]: iLeik_Z joined the game
-[18:20:02] [Netty Epoll Server IO #4/INFO]: [showmeyourskin] Client of iLeik_Z accepted server config.
-[18:20:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[18:20:09] [Netty Epoll Server IO #4/INFO]: Channel update: iLeik_Z -> default
-[18:20:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5928ms or 118 ticks behind
-[18:22:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2286ms or 45 ticks behind
-[18:22:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
-[18:23:20] [Server thread/WARN]: jajas10 moved too quickly! -6.914603242257499,-1.3680968600179995,7.360119186837437
-[18:23:20] [Server thread/WARN]: iLeik_Z moved too quickly! 5.723096612898928,-1.0,8.170058226407946
-[18:23:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2564ms or 51 ticks behind
-[18:24:18] [Server thread/WARN]: jajas10 moved too quickly! 8.594554437093734,2.7531999805212024,-4.741107535607398
-[18:24:18] [Server thread/WARN]: iLeik_Z moved too quickly! -9.39078103267201,3.5009966402674877,1.4980179580720687
-[18:24:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2401ms or 48 ticks behind
-[18:24:42] [Server thread/INFO]: iLeik_Z has reached the goal [Flawless Crystals]
-[18:25:23] [Server thread/INFO]: No return portal found
-[18:25:27] [Server thread/INFO]: jajas10 has made the advancement [Nether Depths Upgrade]
-[18:25:28] [Server thread/INFO]: jajas10 has made the advancement [Incendium]
-[18:25:28] [Server thread/INFO]: jajas10 has made the advancement [We Need to Go Deeper]
-[18:25:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7433ms or 148 ticks behind
-[18:25:54] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=225, y=146, z=2868} but found not block entity block Block{minecraft:snow}[layers=1] at location
-[18:25:54] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:snow}[layers=1] but failed at location class_2338{x=225, y=146, z=2868}
-[18:25:54] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=225, y=147, z=2865} but found not block entity block Block{minecraft:snow}[layers=1] at location
-[18:25:54] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:snow}[layers=1] but failed at location class_2338{x=225, y=147, z=2865}
-[18:25:54] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=224, y=147, z=2867} but found not block entity block Block{minecraft:snow}[layers=1] at location
-[18:25:54] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:snow}[layers=1] but failed at location class_2338{x=224, y=147, z=2867}
-[18:25:54] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=224, y=147, z=2866} but found not block entity block Block{minecraft:snow}[layers=1] at location
-[18:25:54] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:snow}[layers=1] but failed at location class_2338{x=224, y=147, z=2866}
-[18:25:54] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=224, y=146, z=2870} but found not block entity block Block{minecraft:snow}[layers=1] at location
-[18:25:54] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:snow}[layers=1] but failed at location class_2338{x=224, y=146, z=2870}
-[18:25:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
-[18:26:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5349ms or 106 ticks behind
-[18:27:16] [Server thread/INFO]: Named entity class_1639['Esper the Lazy'/5596, l='ServerLevel[world]', x=-96.65, y=80.00, z=166.57] died: Esper the Lazy was slain by jajas10
-[18:27:19] [Server thread/INFO]: jajas10 has completed the challenge [He Wasn't So Strong]
-[18:28:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[18:28:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2100ms or 42 ticks behind
-[18:30:04] [Server thread/INFO]: jajas10 was burnt to a crisp whilst fighting Ghast
-[18:30:04] [Server thread/INFO]: [jajas10: [LD] You died at 24, 125, 0, in minecraft:the_nether.]
-[18:30:16] [Server thread/INFO]: jajas10 lost connection: Timed out
-[18:30:16] [Server thread/INFO]: jajas10 left the game
-[18:30:16] [Server thread/WARN]: handleDisconnection() called twice
-[18:30:23] [Server thread/INFO]: Named entity class_1613['Mr. President Borvercow'/7822, l='ServerLevel[world]', x=113.70, y=172.00, z=2766.70] died: Mr. President Borvercow was slain by iLeik_Z
-[18:30:39] [Server thread/INFO]: jajas10[/127.107.82.112:47481] logged in with entity id 8824 at (13.44821223830889, 124.0, -5.643758949823387)
-[18:30:39] [Server thread/INFO]: Syncing config to jajas10 (232e27a6-2a84-3af0-a78d-243e5576f6c5)
-[18:30:39] [Server thread/INFO]: jajas10 joined the game
-[18:30:39] [Netty Epoll Server IO #5/INFO]: [showmeyourskin] Client of jajas10 accepted server config.
-[18:30:40] [Netty Epoll Server IO #5/INFO]: Channel update: jajas10 -> default
-[18:31:22] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=-112, y=210, z=3047} but found not block entity block Block{minecraft:snow}[layers=1] at location
-[18:31:22] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:snow}[layers=1] but failed at location class_2338{x=-112, y=210, z=3047}
-[18:31:22] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=-111, y=212, z=3048} but found not block entity block Block{minecraft:snow}[layers=1] at location
-[18:31:22] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:snow}[layers=1] but failed at location class_2338{x=-111, y=212, z=3048}
-[18:33:12] [Server thread/INFO]: No return portal found
-[18:34:35] [Server thread/INFO]: iLeik_Z has made the advancement [Amateur Archaeologist]
-[18:36:21] [Server thread/INFO]: iLeik_Z has made the advancement [Not Today, Thank You]
-[18:37:20] [Worker-Main-2/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[18:37:20] [Worker-Main-2/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[18:37:20] [Worker-Main-2/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[18:37:20] [Worker-Main-2/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[18:37:21] [Worker-Main-2/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[18:37:21] [Worker-Main-2/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[18:37:21] [Worker-Main-2/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[18:37:21] [Worker-Main-2/WARN]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[18:37:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8717ms or 174 ticks behind
-[18:37:22] [Server thread/WARN]: jajas10 moved too quickly! 8.997845438279825,-1.0,-4.357587621707136
+[18:51:50] [main/ERROR]: Parsing error loading custom advancement overweight_farming:husbandry/peel_overweight_onion: Failed to parse 'location' field
+[18:51:50] [main/ERROR]: Parsing error loading custom advancement naturescompass:natures_compass: Expected items to be a JsonArray, was "min...ss"
+[18:51:50] [main/ERROR]: Parsing error loading custom advancement overweight_farming:husbandry/unpeel_vegetables: Failed to parse 'location' field
+[18:51:50] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass: Expected items to be a JsonArray, was "min...ss"
+[18:51:50] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cobweb: Expected items to be a JsonArray, was "min...eb"
+[18:51:50] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cracked_stone_bricks: Expected items to be a JsonArray, was "min...ks"
+[18:51:50] [main/INFO]: Loaded 5455 advancements
+[18:51:50] [main/INFO]: Registered 16 gear_sets.
+[18:51:50] [main/INFO]: Registered 6 rarities.
+[18:51:51] [main/INFO]: Registered 81 affixes.
+[18:51:51] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:mythic for category helmetRequired: 3; Provided: 2
+[18:51:51] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:mythic for category bootsRequired: 3; Provided: 2
+[18:51:51] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category bowRequired: 5; Provided: 4
+[18:51:51] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category crossbowRequired: 5; Provided: 4
+[18:51:51] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category pickaxeRequired: 5; Provided: 4
+[18:51:51] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category shovelRequired: 5; Provided: 4
+[18:51:51] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category shieldRequired: 5; Provided: 4
+[18:51:51] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category helmetRequired: 4; Provided: 2
+[18:51:51] [main/ERROR]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity zenith:ancient for category bootsRequired: 4; Provided: 2
+[18:51:51] [main/INFO]: Registered 19 gems.
+[18:51:51] [main/INFO]: Registered 65 affix_loot_entries.
+[18:51:51] [main/INFO]: Registered 17 bosses.
+[18:51:51] [main/INFO]: Registered 8 rogue_spawners.
+[18:51:51] [main/INFO]: Registered 5 minibosses.
+[18:51:51] [main/INFO]: Registered 28 wanderer_trades.
+[18:51:51] [main/INFO]: Registered 34 enchanting_stats.
+[18:51:51] [main/INFO]: Loading exposure lenses:
+[18:51:51] [main/INFO]: Lens [exposure:spyglass, FocalRange[min=55, max=200]] added.
+[18:51:51] [main/INFO]: [Fabric Seasons] Successfully loaded 33 custom crop configs.
+[18:51:51] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 105 translation keys
+[18:51:51] [main/INFO]: Loaded 156 recipes
+[18:51:51] [main/INFO]: Applied 12 data villager trades
+[18:51:52] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on stonecutter_recipe_tags.mixins.json:PlayerManagerMixin from mod stonecutter_recipe_tags::handler$ffp000$stonecutter_recipe_tags$stonecutterRecipeTags$afterSyncTagsOnPlayerConnect exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[18:51:52] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on stonecutter_recipe_tags.mixins.json:PlayerManagerMixin from mod stonecutter_recipe_tags::handler$ffp000$stonecutter_recipe_tags$stonecutterRecipeTags$afterSyncTagsOnDataPacksReloaded exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[18:51:52] [main/INFO]: Applied 4867 biome modifications to 192 of 192 new biomes in 186.4 ms
+[18:51:52] [Server thread/INFO]: Loading server config for barteringstation
+[18:51:52] [Thread-2/INFO]: Reloading server config for barteringstation
+[18:51:52] [Thread-2/INFO]: Reloading server config for barteringstation
+[18:51:52] [Server thread/INFO]: Loading server config for easyanvils
+[18:51:52] [Thread-2/INFO]: Reloading server config for easyanvils
+[18:51:52] [Thread-2/INFO]: Reloading server config for easyanvils
+[18:51:52] [Server thread/INFO]: Loading server config for easymagic
+[18:51:52] [Thread-2/INFO]: Reloading server config for easymagic
+[18:51:52] [Thread-2/INFO]: Reloading server config for easymagic
+[18:51:52] [Server thread/INFO]: Loading server config for hangglider
+[18:51:52] [Thread-2/INFO]: Reloading server config for hangglider
+[18:51:52] [Server thread/INFO]: Loading server config for illagerinvasion
+[18:51:52] [Thread-2/INFO]: Reloading server config for hangglider
+[18:51:52] [Server thread/INFO]: Loading server config for mutantmonsters
+[18:51:52] [Server thread/INFO]: Loading server config for puzzlesapi
+[18:51:52] [Thread-2/INFO]: Reloading server config for puzzlesapi
+[18:51:52] [Thread-2/INFO]: Reloading server config for puzzlesapi
+[18:51:52] [Server thread/INFO]: Loading server config for universalbonemeal
+[18:51:52] [Thread-2/INFO]: Reloading server config for universalbonemeal
+[18:51:52] [Thread-2/INFO]: Reloading server config for universalbonemeal
+[18:51:52] [Server thread/INFO]: Loading server configs...
+[18:51:52] [Server thread/INFO]: Reading config.
+[18:51:52] [Server thread/INFO]: Injecting Carpenter Village Houses
+[18:51:52] [Server thread/INFO]: [STDERR]: Spell Engine: Failed to parse spell: spellbladenext:spells/lightningsmite.json | Reason: com.google.gson.stream.MalformedJsonException: Expected name at line 12 column 4 path $.cast.animation
+[18:51:52] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 184421 bytes (in 19 string chunks with the size of 10000)
+[18:51:52] [Server thread/INFO]: Scanning class appeng.server.testplots.TestPlots for plots
+[18:51:52] [Server thread/INFO]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[18:51:52] [Server thread/INFO]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[18:51:52] [Server thread/INFO]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[18:51:52] [Server thread/INFO]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[18:51:52] [Server thread/INFO]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[18:51:52] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[18:51:52] [Server thread/INFO]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[18:51:52] [Server thread/INFO]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[18:51:52] [Server thread/INFO]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[18:51:52] [Server thread/INFO]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[18:51:52] [Server thread/INFO]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[18:51:52] [Server thread/INFO]: Scanning class appeng.server.testplots.ChannelTests for plots
+[18:51:52] [Server thread/INFO]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[18:51:52] [Server thread/ERROR]: Registry 'terraform:boat' was empty after loading
+[18:51:52] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[18:51:52] [Server thread/INFO]: Loading properties
+[18:51:52] [Server thread/INFO]: Default game type: SURVIVAL
+[18:51:52] [Server thread/INFO]: Generating keypair
+[18:51:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:51:52] [Server thread/INFO]: Using epoll channel type
+[18:51:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:51:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:51:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:51:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:51:53] [Server thread/INFO]: Preparing level "world"
+[18:51:53] [Server thread/INFO]: Enforcing safe world random access
+[18:51:53] [Server thread/WARN]: Method overwrite conflict for computeValue in spellbladenext.mixins.json:AttributeMixin from mod spellbladenext, previously written by com.extraspellattributes.mixin.AttributeMixin. Skipping method.
+[18:51:53] [Server thread/WARN]: Method overwrite conflict for computeAdded in spellbladenext.mixins.json:AttributeMixin from mod spellbladenext, previously written by com.extraspellattributes.mixin.AttributeMixin. Skipping method.
+[18:52:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:52:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:52:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:52:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:52:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:52:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:52:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:52:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:52:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:52:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:52:09] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[18:52:09] [Worker-Main-2/INFO]: Preparing spawn area: 10%
+[18:52:10] [Worker-Main-1/INFO]: Preparing spawn area: 10%
+[18:52:10] [Worker-Main-3/INFO]: Preparing spawn area: 10%
+[18:52:11] [Worker-Main-3/INFO]: Preparing spawn area: 15%
+[18:52:11] [Worker-Main-2/INFO]: Preparing spawn area: 34%
+[18:52:12] [Worker-Main-1/INFO]: Preparing spawn area: 69%
+[18:52:12] [Server thread/INFO]: Time elapsed: 7865 ms
+[18:52:12] [Server thread/INFO]: Done (19.574s)! For help, type "help"
+[18:52:12] [Server thread/WARN]: Dedicated server took 75.021 seconds to load
+[18:52:12] [Server thread/INFO]: Start loading plugin from Applied Energistics 2
+[18:52:13] [Server thread/INFO]: Start loading plugin from Exposure
+[18:52:13] [Server thread/INFO]: Start loading plugin from Ice And Fire
+[18:52:13] [Server thread/INFO]: Start loading plugin from Jade
+[18:52:13] [Server thread/INFO]: Start loading plugin from Jade
+[18:52:13] [Server thread/INFO]: Start loading plugin from Jade
+[18:52:13] [Server thread/INFO]: Start loading plugin from Polymer (Core)
+[18:52:13] [Server thread/INFO]: Start loading plugin from Snow! Real Magic!
+[18:52:13] [Server thread/INFO]: Start loading plugin from Waystones
+[18:52:13] [Server thread/INFO]: Start loading plugin from Zenith
+[18:52:13] [Server thread/INFO]: Start loading plugin from Zenith
+[18:52:13] [Server thread/INFO]: Start loading plugin from Zenith
+[18:52:13] [Server thread/INFO]: Loaded values for 81 compatible attributes.
+[18:52:13] [Server thread/INFO]: Loaded 81 values from config.
+[18:52:13] [Server thread/INFO]: Saving config file. 81 entries.
+[18:52:13] [Server thread/INFO]: Applying changes for 81 attributes.
+[18:52:13] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[18:52:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2546ms or 50 ticks behind
+[18:52:21] [Server thread/INFO]: Made iLeik_Z a server operator
+[18:52:22] [Server thread/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
+[18:52:22] [Server thread/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
+[18:52:24] [Server thread/INFO]: jajas10[/127.107.82.112:41965] logged in with entity id 1496 at (96.01837307824019, 78.5, 33.7360513829485)
+[18:52:24] [Netty Epoll Server IO #1/INFO]: [showmeyourskin] Client of jajas10 accepted server config.
+[18:52:24] [Server thread/INFO]: Syncing config to jajas10 (232e27a6-2a84-3af0-a78d-243e5576f6c5)
+[18:52:25] [Netty Epoll Server IO #1/INFO]: Channel update: jajas10 -> default
+[18:52:25] [Server thread/INFO]: jajas10 joined the game
+[18:52:35] [Server thread/INFO]: iLeik_Z[/127.34.1.247:54779] logged in with entity id 1679 at (83.45575246652038, 197.79673560066868, 2881.090698890585)
+[18:52:35] [Server thread/INFO]: Syncing config to iLeik_Z (58688dda-f7c3-323b-8e47-a50b24f76bfd)
+[18:52:35] [Netty Epoll Server IO #3/INFO]: [showmeyourskin] Client of iLeik_Z accepted server config.
+[18:52:35] [Server thread/INFO]: iLeik_Z joined the game
+[18:52:40] [Netty Epoll Server IO #3/INFO]: Channel update: iLeik_Z -> default
+[18:52:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18737ms or 374 ticks behind
+[18:53:03] [Server thread/ERROR]: POI data mismatch: already registered at class_2338{x=290, y=18, z=3062}
+[18:53:03] [Server thread/ERROR]: POI data mismatch: already registered at class_2338{x=290, y=18, z=3063}
+[18:53:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12565ms or 251 ticks behind
+[18:54:57] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 325 chunks (7.69%), ETA: 0:00:12, Rate: 313.1 cps, Current: 0, 25
+[18:54:58] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 327 chunks (7.74%), ETA: 0:00:26, Rate: 147.9 cps, Current: 2, 25
+[18:54:59] [IOWorker-4/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 332 chunks (7.86%), ETA: 0:00:38, Rate: 102.3 cps, Current: 6, 24
+[18:55:00] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 337 chunks (7.98%), ETA: 0:00:49, Rate: 78.2 cps, Current: 4, 26
+[18:55:01] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 343 chunks (8.12%), ETA: 0:01:05, Rate: 59.5 cps, Current: 2, 29
+[18:55:03] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 352 chunks (8.33%), ETA: 0:01:20, Rate: 48.3 cps, Current: 6, 25
+[18:55:04] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 360 chunks (8.52%), ETA: 0:01:32, Rate: 41.9 cps, Current: 6, 28
+[18:55:05] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 369 chunks (8.73%), ETA: 0:01:41, Rate: 37.9 cps, Current: 9, 27
+[18:55:07] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 376 chunks (8.90%), ETA: 0:01:53, Rate: 33.8 cps, Current: 11, 26
+[18:55:08] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 382 chunks (9.04%), ETA: 0:02:01, Rate: 31.5 cps, Current: 11, 28
+[18:55:10] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 387 chunks (9.16%), ETA: 0:02:18, Rate: 27.6 cps, Current: 13, 29
+[18:55:11] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 397 chunks (9.40%), ETA: 0:02:25, Rate: 26.2 cps, Current: 13, 25
+[18:55:12] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 402 chunks (9.51%), ETA: 0:02:38, Rate: 24.0 cps, Current: 2, 30
+[18:55:14] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 408 chunks (9.66%), ETA: 0:02:48, Rate: 22.6 cps, Current: 13, 21
+[18:55:15] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 410 chunks (9.70%), ETA: 0:02:58, Rate: 21.3 cps, Current: 12, 20
+[18:55:16] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 453 chunks (10.72%), ETA: 0:02:51, Rate: 21.9 cps, Current: 11, 19
+[18:55:17] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 462 chunks (10.93%), ETA: 0:02:56, Rate: 21.3 cps, Current: 13, 19
+[18:55:18] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 470 chunks (11.12%), ETA: 0:03:01, Rate: 20.7 cps, Current: 14, 24
+[18:55:19] [Server thread/INFO]: jajas10 has reached the goal [Flawless Crystals]
+[18:55:19] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 479 chunks (11.34%), ETA: 0:03:06, Rate: 20.1 cps, Current: 16, 16
+[18:55:21] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 485 chunks (11.48%), ETA: 0:03:14, Rate: 19.3 cps, Current: 18, 16
+[18:55:22] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 489 chunks (11.57%), ETA: 0:03:21, Rate: 18.5 cps, Current: 19, 17
+[18:55:23] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 500 chunks (11.83%), ETA: 0:03:26, Rate: 18.1 cps, Current: 18, 19
+[18:55:24] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 508 chunks (12.02%), ETA: 0:03:31, Rate: 17.6 cps, Current: 20, 20
+[18:55:26] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 513 chunks (12.14%), ETA: 0:09:29, Rate: 6.5 cps, Current: 22, 19
+[18:55:27] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 523 chunks (12.38%), ETA: 0:09:02, Rate: 6.8 cps, Current: 17, 20
+[18:55:28] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 538 chunks (12.73%), ETA: 0:08:41, Rate: 7.1 cps, Current: 17, 23
+[18:55:29] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 549 chunks (12.99%), ETA: 0:08:20, Rate: 7.3 cps, Current: 17, 26
+[18:55:30] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 558 chunks (13.21%), ETA: 0:08:11, Rate: 7.5 cps, Current: 17, 27
+[18:55:31] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 566 chunks (13.40%), ETA: 0:08:06, Rate: 7.5 cps, Current: 19, 23
+[18:55:33] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 573 chunks (13.56%), ETA: 0:08:07, Rate: 7.5 cps, Current: 20, 23
+[18:55:34] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 577 chunks (13.66%), ETA: 0:08:15, Rate: 7.4 cps, Current: 21, 28
+[18:55:36] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 590 chunks (13.96%), ETA: 0:08:10, Rate: 7.4 cps, Current: 22, 29
+[18:55:38] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 598 chunks (14.15%), ETA: 0:08:08, Rate: 7.4 cps, Current: 0, 31
+[18:55:40] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 604 chunks (14.30%), ETA: 0:08:25, Rate: 7.2 cps, Current: 23, 25
+[18:55:41] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 613 chunks (14.51%), ETA: 0:08:05, Rate: 7.4 cps, Current: 23, 28
+[18:55:42] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 619 chunks (14.65%), ETA: 0:08:08, Rate: 7.4 cps, Current: 24, 29
+[18:55:44] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 629 chunks (14.89%), ETA: 0:08:05, Rate: 7.4 cps, Current: 27, 29
+[18:55:51] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 637 chunks (15.08%), ETA: 0:11:42, Rate: 5.1 cps, Current: 29, 30
+[18:55:52] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 643 chunks (15.22%), ETA: 0:12:00, Rate: 5.0 cps, Current: 13, 31
+[18:55:53] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 652 chunks (15.43%), ETA: 0:11:39, Rate: 5.1 cps, Current: 27, 26
+[18:55:54] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 660 chunks (15.62%), ETA: 0:11:38, Rate: 5.1 cps, Current: 30, 25
+[18:55:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[18:55:56] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 664 chunks (15.72%), ETA: 0:11:40, Rate: 5.1 cps, Current: 29, 24
+[18:55:57] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 670 chunks (15.86%), ETA: 0:11:59, Rate: 4.9 cps, Current: 29, 23
+[18:55:58] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 675 chunks (15.98%), ETA: 0:13:28, Rate: 4.4 cps, Current: 28, 22
+[18:55:59] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 693 chunks (16.40%), ETA: 0:12:27, Rate: 4.7 cps, Current: 23, 20
+[18:56:00] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 707 chunks (16.73%), ETA: 0:11:38, Rate: 5.0 cps, Current: 25, 17
+[18:56:01] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 720 chunks (17.04%), ETA: 0:11:11, Rate: 5.2 cps, Current: 30, 20
+[18:56:02] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 728 chunks (17.23%), ETA: 0:11:07, Rate: 5.2 cps, Current: 21, 16
+[18:56:03] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 737 chunks (17.44%), ETA: 0:10:39, Rate: 5.5 cps, Current: 29, 15
+[18:56:05] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 744 chunks (17.61%), ETA: 0:10:48, Rate: 5.4 cps, Current: 30, 17
+[18:56:06] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 756 chunks (17.89%), ETA: 0:10:21, Rate: 5.6 cps, Current: 27, 11
+[18:56:07] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 760 chunks (17.99%), ETA: 0:10:13, Rate: 5.7 cps, Current: 30, 9
+[18:56:08] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 769 chunks (18.20%), ETA: 0:09:59, Rate: 5.8 cps, Current: 25, 10
+[18:56:09] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 793 chunks (18.77%), ETA: 0:08:51, Rate: 6.5 cps, Current: 23, 14
+[18:56:10] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 843 chunks (19.95%), ETA: 0:07:11, Rate: 7.8 cps, Current: 21, 11
+[18:56:12] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 858 chunks (20.31%), ETA: 0:06:58, Rate: 8.0 cps, Current: 22, 8
+[18:56:13] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 897 chunks (21.23%), ETA: 0:06:00, Rate: 9.2 cps, Current: 27, 31
+[18:56:14] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 909 chunks (21.51%), ETA: 0:04:38, Rate: 11.9 cps, Current: 21, 4
+[18:56:15] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 921 chunks (21.80%), ETA: 0:04:38, Rate: 11.8 cps, Current: 23, 4
+[18:56:16] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 929 chunks (21.99%), ETA: 0:04:42, Rate: 11.6 cps, Current: 25, 2
+[18:56:17] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 949 chunks (22.46%), ETA: 0:04:35, Rate: 11.9 cps, Current: 27, 8
+[18:56:19] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 971 chunks (22.98%), ETA: 0:04:25, Rate: 12.3 cps, Current: 27, 2
+[18:56:20] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 990 chunks (23.43%), ETA: 0:04:20, Rate: 12.4 cps, Current: 31, 10
+[18:56:21] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1004 chunks (23.76%), ETA: 0:04:18, Rate: 12.4 cps, Current: 31, 24
+[18:56:22] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1010 chunks (23.91%), ETA: 0:04:18, Rate: 12.4 cps, Current: 31, 30
+[18:56:23] [Server thread/WARN]: Couldn't set damage of loot item 1 iron_horse_armor
+[18:56:23] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1011 chunks (23.93%), ETA: 0:04:26, Rate: 12.0 cps, Current: 31, 31
+[18:56:24] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1018 chunks (24.09%), ETA: 0:04:25, Rate: 12.1 cps, Current: 25, 0
+[18:56:25] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1022 chunks (24.19%), ETA: 0:04:24, Rate: 12.1 cps, Current: 29, 0
+[18:56:27] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1029 chunks (24.36%), ETA: 0:04:25, Rate: 12.1 cps, Current: 32, 4
+[18:56:28] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1036 chunks (24.52%), ETA: 0:04:30, Rate: 11.8 cps, Current: 32, 11
+[18:56:32] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1044 chunks (24.71%), ETA: 0:04:55, Rate: 10.8 cps, Current: 32, 19
+[18:56:33] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1050 chunks (24.85%), ETA: 0:04:59, Rate: 10.6 cps, Current: 2, -30
+[18:56:34] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1056 chunks (24.99%), ETA: 0:04:57, Rate: 10.7 cps, Current: 1, -29
+[18:56:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[18:56:35] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1059 chunks (25.07%), ETA: 0:05:06, Rate: 10.3 cps, Current: 1, -27
+[18:56:36] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1064 chunks (25.18%), ETA: 0:05:02, Rate: 10.5 cps, Current: 1, -25
+[18:56:37] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1070 chunks (25.33%), ETA: 0:05:05, Rate: 10.3 cps, Current: 2, -28
+[18:56:40] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1071 chunks (25.35%), ETA: 0:06:42, Rate: 7.8 cps, Current: 32, -32
+[18:56:41] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1078 chunks (25.51%), ETA: 0:06:54, Rate: 7.6 cps, Current: 4, -25
+[18:56:41] [Server thread/INFO]: iLeik_Z has made the advancement [Super Creeps]
+[18:56:42] [Server thread/ERROR]: POI data mismatch: already registered at class_2338{x=288, y=4, z=3138}
+[18:56:42] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1083 chunks (25.63%), ETA: 0:08:10, Rate: 6.4 cps, Current: 6, -25
+[18:56:43] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1096 chunks (25.94%), ETA: 0:08:04, Rate: 6.5 cps, Current: 3, -29
+[18:56:44] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1117 chunks (26.44%), ETA: 0:07:38, Rate: 6.8 cps, Current: 32, -16
+[18:56:46] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1128 chunks (26.70%), ETA: 0:07:31, Rate: 6.9 cps, Current: 7, -28
+[18:56:47] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1129 chunks (26.72%), ETA: 0:08:27, Rate: 6.1 cps, Current: 7, -29
+[18:56:48] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1139 chunks (26.96%), ETA: 0:09:03, Rate: 5.7 cps, Current: 12, -28
+[18:56:50] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1146 chunks (27.12%), ETA: 0:10:24, Rate: 4.9 cps, Current: 15, -27
+[18:56:50] [Server thread/ERROR]: POI data mismatch: already registered at class_2338{x=95, y=12, z=3178}
+[18:56:51] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1151 chunks (27.24%), ETA: 0:10:32, Rate: 4.9 cps, Current: 15, -25
+[18:56:52] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1172 chunks (27.74%), ETA: 0:09:05, Rate: 5.6 cps, Current: 9, -26
+[18:56:53] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1182 chunks (27.98%), ETA: 0:08:58, Rate: 5.7 cps, Current: 10, -24
+[18:56:55] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1194 chunks (28.26%), ETA: 0:08:31, Rate: 5.9 cps, Current: 11, -23
+[18:56:56] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1206 chunks (28.54%), ETA: 0:08:16, Rate: 6.1 cps, Current: 12, -21
+[18:56:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6169ms or 123 ticks behind
+[18:56:57] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1211 chunks (28.66%), ETA: 0:08:07, Rate: 6.2 cps, Current: 14, -19
+[18:56:58] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1227 chunks (29.04%), ETA: 0:07:40, Rate: 6.5 cps, Current: 15, -22
+[18:56:59] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1238 chunks (29.30%), ETA: 0:06:54, Rate: 7.2 cps, Current: 8, -20
+[18:57:00] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1248 chunks (29.54%), ETA: 0:06:47, Rate: 7.3 cps, Current: 5, -17
+[18:57:01] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1284 chunks (30.39%), ETA: 0:05:54, Rate: 8.3 cps, Current: 1, -24
+[18:57:02] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1336 chunks (31.62%), ETA: 0:04:50, Rate: 9.9 cps, Current: 7, -16
+[18:57:03] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1569 chunks (37.14%), ETA: 0:02:32, Rate: 17.4 cps, Current: 16, -13
+[18:57:05] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1580 chunks (37.40%), ETA: 0:02:31, Rate: 17.5 cps, Current: 19, -15
+[18:57:06] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1588 chunks (37.59%), ETA: 0:02:29, Rate: 17.6 cps, Current: 19, -13
+[18:57:08] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1597 chunks (37.80%), ETA: 0:02:20, Rate: 18.7 cps, Current: 22, -11
+[18:57:09] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1660 chunks (39.29%), ETA: 0:02:07, Rate: 20.0 cps, Current: 19, -1
+[18:57:10] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1684 chunks (39.86%), ETA: 0:02:02, Rate: 20.7 cps, Current: 22, -8
+[18:57:11] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1692 chunks (40.05%), ETA: 0:02:01, Rate: 20.9 cps, Current: 23, -6
+[18:57:12] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1738 chunks (41.14%), ETA: 0:01:52, Rate: 22.1 cps, Current: 28, -5
+[18:57:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[18:57:13] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1775 chunks (42.01%), ETA: 0:01:48, Rate: 22.6 cps, Current: 23, -10
+[18:57:14] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1813 chunks (42.91%), ETA: 0:01:41, Rate: 23.7 cps, Current: 25, -14
+[18:57:15] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1838 chunks (43.50%), ETA: 0:01:40, Rate: 23.7 cps, Current: 31, -16
+[18:57:17] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1855 chunks (43.91%), ETA: 0:01:36, Rate: 24.6 cps, Current: 31, -20
+[18:57:18] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1897 chunks (44.90%), ETA: 0:01:30, Rate: 25.8 cps, Current: 18, -17
+[18:57:19] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1924 chunks (45.54%), ETA: 0:01:25, Rate: 26.8 cps, Current: 18, -21
+[18:57:20] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1961 chunks (46.41%), ETA: 0:01:20, Rate: 28.2 cps, Current: 18, -24
+[18:57:21] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1986 chunks (47.01%), ETA: 0:01:19, Rate: 28.0 cps, Current: 16, -30
+[18:57:22] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2000 chunks (47.34%), ETA: 0:01:18, Rate: 28.4 cps, Current: 20, -29
+[18:57:23] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2015 chunks (47.69%), ETA: 0:01:19, Rate: 27.9 cps, Current: 23, -30
+[18:57:24] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2045 chunks (48.40%), ETA: 0:01:16, Rate: 28.5 cps, Current: 27, -27
+[18:57:27] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2084 chunks (49.33%), ETA: 0:01:13, Rate: 28.9 cps, Current: -30, -31
+[18:57:28] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2090 chunks (49.47%), ETA: 0:01:14, Rate: 28.8 cps, Current: -31, -27
+[18:57:30] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2105 chunks (49.82%), ETA: 0:01:14, Rate: 28.3 cps, Current: 8, -32
+[18:57:31] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2120 chunks (50.18%), ETA: 0:01:17, Rate: 27.0 cps, Current: -26, -27
+[18:57:32] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2133 chunks (50.49%), ETA: 0:01:46, Rate: 19.6 cps, Current: -25, -30
+[18:57:34] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2139 chunks (50.63%), ETA: 0:01:46, Rate: 19.6 cps, Current: -24, -29
+[18:57:35] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2148 chunks (50.84%), ETA: 0:01:49, Rate: 19.0 cps, Current: -21, -30
+[18:57:36] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2153 chunks (50.96%), ETA: 0:01:45, Rate: 19.6 cps, Current: -18, -31
+[18:57:37] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2164 chunks (51.22%), ETA: 0:01:47, Rate: 19.2 cps, Current: 20, -32
+[18:57:38] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2169 chunks (51.34%), ETA: 0:01:58, Rate: 17.4 cps, Current: -19, -27
+[18:57:40] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2176 chunks (51.50%), ETA: 0:02:02, Rate: 16.8 cps, Current: -20, -26
+[18:57:42] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2197 chunks (52.00%), ETA: 0:02:08, Rate: 15.7 cps, Current: -23, -25
+[18:57:43] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2203 chunks (52.14%), ETA: 0:02:18, Rate: 14.6 cps, Current: -23, -24
+[18:57:44] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2218 chunks (52.50%), ETA: 0:02:26, Rate: 13.7 cps, Current: -18, -22
+[18:57:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[18:57:45] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2226 chunks (52.69%), ETA: 0:02:32, Rate: 13.1 cps, Current: -32, -30
+[18:57:46] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2235 chunks (52.90%), ETA: 0:02:34, Rate: 12.9 cps, Current: -32, -27
+[18:57:47] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2243 chunks (53.09%), ETA: 0:02:48, Rate: 11.8 cps, Current: -20, -21
+[18:57:48] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2262 chunks (53.54%), ETA: 0:02:50, Rate: 11.5 cps, Current: -24, -24
+[18:57:49] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2268 chunks (53.68%), ETA: 0:03:06, Rate: 10.5 cps, Current: -26, -20
+[18:57:50] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2296 chunks (54.34%), ETA: 0:03:00, Rate: 10.7 cps, Current: -28, -22
+[18:57:51] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2309 chunks (54.65%), ETA: 0:03:00, Rate: 10.6 cps, Current: -30, -21
+[18:57:52] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2323 chunks (54.98%), ETA: 0:02:58, Rate: 10.6 cps, Current: -24, -32
+[18:57:53] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2328 chunks (55.10%), ETA: 0:03:14, Rate: 9.8 cps, Current: -20, -32
+[18:57:55] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2347 chunks (55.55%), ETA: 0:03:12, Rate: 9.8 cps, Current: -29, -15
+[18:57:55] [Server thread/INFO]: jajas10 has made the advancement [Cover Me with Diamonds]
+[18:57:56] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2364 chunks (55.95%), ETA: 0:03:06, Rate: 10.0 cps, Current: -25, -13
+[18:57:57] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2381 chunks (56.36%), ETA: 0:03:00, Rate: 10.2 cps, Current: -29, -12
+[18:57:58] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2398 chunks (56.76%), ETA: 0:02:55, Rate: 10.4 cps, Current: -31, -9
+[18:58:00] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2408 chunks (56.99%), ETA: 0:02:57, Rate: 10.2 cps, Current: -31, -5
+[18:58:01] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2422 chunks (57.33%), ETA: 0:02:56, Rate: 10.2 cps, Current: -28, -4
+[18:58:02] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2430 chunks (57.51%), ETA: 0:02:56, Rate: 10.1 cps, Current: -26, -4
+[18:58:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3074ms or 61 ticks behind
+[18:58:03] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2459 chunks (58.20%), ETA: 0:02:41, Rate: 11.0 cps, Current: -17, -26
+[18:58:06] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2466 chunks (58.37%), ETA: 0:02:49, Rate: 10.4 cps, Current: -24, -4
+[18:58:07] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2562 chunks (60.64%), ETA: 0:02:02, Rate: 13.5 cps, Current: -18, -9
+[18:58:08] [IOWorker-4/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2817 chunks (66.67%), ETA: 0:01:03, Rate: 22.2 cps, Current: -12, -7
+[18:58:10] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2861 chunks (67.72%), ETA: 0:00:59, Rate: 22.9 cps, Current: -13, -16
+[18:58:11] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2896 chunks (68.54%), ETA: 0:00:55, Rate: 24.1 cps, Current: -4, -17
+[18:58:12] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2916 chunks (69.02%), ETA: 0:00:52, Rate: 24.9 cps, Current: -5, -22
+[18:58:13] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2943 chunks (69.66%), ETA: 0:00:51, Rate: 24.9 cps, Current: -7, -19
+[18:58:14] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2973 chunks (70.37%), ETA: 0:00:48, Rate: 25.6 cps, Current: -5, -23
+[18:58:15] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2999 chunks (70.98%), ETA: 0:00:46, Rate: 26.2 cps, Current: -11, -25
+[18:58:16] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3022 chunks (71.53%), ETA: 0:00:45, Rate: 26.6 cps, Current: -13, -27
+[18:58:17] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3044 chunks (72.05%), ETA: 0:00:43, Rate: 27.0 cps, Current: -8, -24
+[18:58:18] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3067 chunks (72.59%), ETA: 0:00:42, Rate: 27.1 cps, Current: -6, -28
+[18:58:20] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3111 chunks (73.63%), ETA: 0:00:40, Rate: 27.3 cps, Current: -10, -31
+[18:58:21] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3123 chunks (73.92%), ETA: 0:00:40, Rate: 27.5 cps, Current: -30, 2
+[18:58:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5094ms or 101 ticks behind
+[18:58:23] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3128 chunks (74.04%), ETA: 0:00:40, Rate: 27.2 cps, Current: -29, 4
+[18:58:24] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3135 chunks (74.20%), ETA: 0:00:40, Rate: 26.7 cps, Current: -26, 5
+[18:58:25] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3153 chunks (74.63%), ETA: 0:00:39, Rate: 26.8 cps, Current: -26, 0
+[18:58:26] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3231 chunks (76.47%), ETA: 0:00:34, Rate: 29.0 cps, Current: -21, 8
+[18:58:27] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3280 chunks (77.63%), ETA: 0:00:31, Rate: 30.4 cps, Current: -22, 13
+[18:58:28] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3294 chunks (77.96%), ETA: 0:00:29, Rate: 31.1 cps, Current: -25, 7
+[18:58:29] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3311 chunks (78.37%), ETA: 0:00:29, Rate: 30.5 cps, Current: -27, 8
+[18:58:30] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3328 chunks (78.77%), ETA: 0:00:29, Rate: 30.6 cps, Current: -30, 9
+[18:58:31] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3342 chunks (79.10%), ETA: 0:00:28, Rate: 30.7 cps, Current: -28, 13
+[18:58:33] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3351 chunks (79.31%), ETA: 0:00:26, Rate: 32.8 cps, Current: -10, -32
+[18:58:35] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3369 chunks (79.74%), ETA: 0:00:26, Rate: 32.1 cps, Current: -30, 15
+[18:58:36] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3385 chunks (80.12%), ETA: 0:00:26, Rate: 31.5 cps, Current: -29, 17
+[18:58:37] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3397 chunks (80.40%), ETA: 0:00:28, Rate: 28.7 cps, Current: -26, 19
+[18:58:38] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3409 chunks (80.69%), ETA: 0:00:40, Rate: 20.3 cps, Current: -29, 20
+[18:58:39] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3417 chunks (80.88%), ETA: 0:00:42, Rate: 18.9 cps, Current: -30, 23
+[18:58:41] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3428 chunks (81.14%), ETA: 0:00:45, Rate: 17.4 cps, Current: -31, 19
+[18:58:42] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3434 chunks (81.28%), ETA: 0:00:47, Rate: 16.6 cps, Current: -30, 24
+[18:58:43] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3438 chunks (81.37%), ETA: 0:00:50, Rate: 15.6 cps, Current: -31, 27
+[18:58:45] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3447 chunks (81.59%), ETA: 0:00:51, Rate: 15.1 cps, Current: -30, 28
+[18:58:46] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3456 chunks (81.80%), ETA: 0:00:52, Rate: 14.6 cps, Current: -27, 28
+[18:58:47] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3476 chunks (82.27%), ETA: 0:00:51, Rate: 14.6 cps, Current: -32, 1
+[18:58:48] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3495 chunks (82.72%), ETA: 0:00:50, Rate: 14.4 cps, Current: -25, 27
+[18:58:49] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3506 chunks (82.98%), ETA: 0:00:52, Rate: 13.8 cps, Current: -22, 27
+[18:58:51] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3515 chunks (83.20%), ETA: 0:00:52, Rate: 13.5 cps, Current: -21, 29
+[18:58:52] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3529 chunks (83.53%), ETA: 0:00:49, Rate: 14.0 cps, Current: -20, 27
+[18:58:53] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3681 chunks (87.12%), ETA: 0:00:29, Rate: 18.5 cps, Current: -32, 17
+[18:58:54] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3692 chunks (87.38%), ETA: 0:00:28, Rate: 18.6 cps, Current: -15, 26
+[18:58:55] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3708 chunks (87.76%), ETA: 0:00:31, Rate: 16.4 cps, Current: -13, 28
+[18:58:56] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3712 chunks (87.86%), ETA: 0:00:34, Rate: 14.9 cps, Current: -11, 29
+[18:58:57] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3734 chunks (88.38%), ETA: 0:00:32, Rate: 15.1 cps, Current: -10, 26
+[18:58:58] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3747 chunks (88.69%), ETA: 0:00:31, Rate: 15.0 cps, Current: -8, 26
+[18:59:00] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3761 chunks (89.02%), ETA: 0:00:31, Rate: 14.8 cps, Current: -6, 27
+[18:59:01] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4120 chunks (97.51%), ETA: 0:00:03, Rate: 26.6 cps, Current: -32, 22
+[18:59:02] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4126 chunks (97.66%), ETA: 0:00:03, Rate: 27.3 cps, Current: -28, 31
+[18:59:03] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4137 chunks (97.92%), ETA: 0:00:03, Rate: 26.8 cps, Current: -17, 31
+[18:59:04] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4146 chunks (98.13%), ETA: 0:00:02, Rate: 26.5 cps, Current: -8, 31
+[18:59:05] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4160 chunks (98.46%), ETA: 0:00:02, Rate: 26.4 cps, Current: -32, 31
+[18:59:06] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4163 chunks (98.53%), ETA: 0:00:02, Rate: 26.1 cps, Current: -30, 32
+[18:59:07] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4173 chunks (98.77%), ETA: 0:00:01, Rate: 26.1 cps, Current: -20, 32
+[18:59:08] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4181 chunks (98.96%), ETA: 0:00:01, Rate: 26.3 cps, Current: -12, 32
+[18:59:09] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4190 chunks (99.17%), ETA: 0:00:01, Rate: 27.1 cps, Current: -3, 32
+[18:59:09] [Server thread/INFO]: iLeik_Z has made the advancement [Cover Me with Diamonds]
+[18:59:10] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4201 chunks (99.43%), ETA: 0:00:00, Rate: 26.5 cps, Current: 8, 32
+[18:59:12] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4210 chunks (99.64%), ETA: 0:00:00, Rate: 26.6 cps, Current: 17, 32
+[18:59:13] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4216 chunks (99.79%), ETA: 0:00:00, Rate: 26.8 cps, Current: 23, 32
+[18:59:13] [Server thread/INFO]: [Chunky] Task finished for minecraft:the_nether. Processed: 4225 chunks (100.00%), Total time: 0:04:17
+[18:59:50] [Server thread/INFO]: iLeik_Z has made the advancement [Diamonds!]
+[19:00:15] [Server thread/INFO]: iLeik_Z has made the advancement [Glacial Profiling]
