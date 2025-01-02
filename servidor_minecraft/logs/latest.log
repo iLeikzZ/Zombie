@@ -1729,3 +1729,14 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length
 [04:31:49] [Server thread/INFO]: jajas10 has made the advancement [I Found It Underground]
 [04:32:58] [Server thread/INFO]: jajas10 has made the advancement [Isn't It Iron Pick]
 [04:33:58] [Server thread/INFO]: Named entity class_1613['Honeyed Archer'/7925, l='ServerLevel[world]', x=-389.69, y=146.55, z=1709.04] died: Honeyed Archer burned to death
+[04:34:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2545ms or 50 ticks behind
+[04:39:12] [Server thread/INFO]: jajas10 has made the advancement [Captured!]
+[04:42:46] [Server thread/INFO]: jajas10 lost connection: Timed out
+[04:42:46] [Server thread/INFO]: jajas10 left the game
+[04:42:46] [Server thread/WARN]: handleDisconnection() called twice
+[04:42:56] [Server thread/INFO]: jajas10[/127.107.82.112:46491] logged in with entity id 14611 at (-495.16732023238075, 150.0625, 1668.1129137101295)
+[04:42:56] [Server thread/INFO]: Syncing config to jajas10 (232e27a6-2a84-3af0-a78d-243e5576f6c5)
+[04:42:56] [Server thread/INFO]: jajas10 joined the game
+[04:42:56] [Netty Epoll Server IO #2/INFO]: [showmeyourskin] Client of jajas10 accepted server config.
+[04:42:57] [Netty Epoll Server IO #2/INFO]: Channel update: jajas10 -> default
+[04:44:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2690ms or 53 ticks behind
