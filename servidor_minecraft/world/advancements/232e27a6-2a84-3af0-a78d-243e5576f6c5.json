@@ -1221,7 +1221,8 @@
       "apple": "2025-01-02 03:11:37 +0000",
       "bread": "2025-01-02 03:14:22 +0000",
       "rotten_flesh": "2025-01-02 02:53:30 +0000",
-      "mushroom_stew": "2025-01-02 04:36:02 +0000"
+      "mushroom_stew": "2025-01-02 04:36:02 +0000",
+      "cooked_salmon": "2025-01-02 04:59:21 +0000"
     },
     "done": false
   },
@@ -2146,6 +2147,90 @@
   "zenith:spawner/capturing": {
     "criteria": {
       "egg": "2025-01-02 04:39:12 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "requirement": "2025-01-02 05:07:34 +0000"
+    },
+    "done": false
+  },
+  "expandedstorage:recipes/misc/present": {
+    "criteria": {
+      "has_previous_block": "2025-01-02 05:07:30 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/pumpkin_chest": {
+    "criteria": {
+      "has_previous_block": "2025-01-02 05:07:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2025-01-02 05:07:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/wood_chest": {
+    "criteria": {
+      "has_previous_block": "2025-01-02 05:07:30 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-02 05:07:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/iron_chest": {
+    "criteria": {
+      "has_previous_block": "2025-01-02 05:07:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2025-01-02 05:07:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/vanilla_wood_mini_chest": {
+    "criteria": {
+      "has_item": "2025-01-02 05:07:30 +0000"
+    },
+    "done": true
+  },
+  "simplyswords:simplyswords": {
+    "criteria": {
+      "requirement": "2025-01-02 05:04:45 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/storage_mutator": {
+    "criteria": {
+      "has_chest": "2025-01-02 05:07:30 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/moss_chest": {
+    "criteria": {
+      "has_previous_block": "2025-01-02 05:07:30 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/bamboo_chest": {
+    "criteria": {
+      "has_previous_block": "2025-01-02 05:07:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2025-01-02 05:07:10 +0000"
     },
     "done": true
   },
