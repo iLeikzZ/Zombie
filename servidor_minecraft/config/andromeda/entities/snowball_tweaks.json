@@ -1,0 +1,14 @@
+{
+  "bootstrap": {
+    "enabled": false
+  },
+  "game": {
+    "freeze": true,
+    "extinguish": true,
+    "melt": true,
+    "layers": false,
+    "enableCooldown": true,
+    "cooldown": 10,
+    "available": true
+  }
+}

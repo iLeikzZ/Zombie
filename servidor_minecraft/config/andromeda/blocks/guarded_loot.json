@@ -1,0 +1,11 @@
+{
+  "bootstrap": {
+    "enabled": false
+  },
+  "game": {
+    "range": 4.0,
+    "allowLockPicking": true,
+    "breakingHandler": "UNBREAKABLE",
+    "available": true
+  }
+}
