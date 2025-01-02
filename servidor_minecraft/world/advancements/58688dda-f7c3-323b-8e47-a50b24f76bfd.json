@@ -214,6 +214,7 @@
       "minecraft:snowy_slopes": "2025-01-02 05:09:38 +0000",
       "minecraft:cherry_grove": "2025-01-02 19:48:45 +0000",
       "minecraft:beach": "2025-01-02 01:56:07 +0000",
+      "minecraft:river": "2025-01-02 20:09:37 +0000",
       "minecraft:cold_ocean": "2025-01-02 04:36:21 +0000",
       "minecraft:ice_spikes": "2025-01-02 18:22:53 +0000",
       "minecraft:ocean": "2025-01-02 02:08:13 +0000",
@@ -3150,9 +3151,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-01-02 20:12:33 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/gold_hippogryph_armor": {
+    "criteria": {
+      "has_item": "2025-01-02 20:05:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_diamond_block": "2025-01-02 20:01:34 +0000"
+    },
+    "done": true
+  },
+  "missingwilds:recipes/building_blocks/fallen_dark_oak_log": {
+    "criteria": {
+      "has_log": "2025-01-02 20:13:33 +0000"
+    },
+    "done": true
+  },
+  "reimaginingpotatoes:recipes/tools/potato_peeler": {
+    "criteria": {
+      "has_shears": "2025-01-02 20:13:33 +0000"
     },
     "done": true
   },
@@ -3162,9 +3187,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-02 20:13:33 +0000"
+    },
+    "done": true
+  },
   "the_bumblezone:teleportation/is_near_beehive": {
     "criteria": {
       "is_near_beehive": "2025-01-02 19:48:59 +0000"
+    },
+    "done": true
+  },
+  "resource_cracker:recipes/misc/blocks/water_spring_block": {
+    "criteria": {
+      "has_water_bucket": "2025-01-02 20:12:33 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_ghost": {
+    "criteria": {
+      "killed_fire_dragon": "2025-01-02 20:10:19 +0000"
+    },
+    "done": true
+  },
+  "spellbladenext:spellblades/specialblades": {
+    "criteria": {
+      "arcane": "2025-01-02 20:08:56 +0000"
     },
     "done": true
   },
