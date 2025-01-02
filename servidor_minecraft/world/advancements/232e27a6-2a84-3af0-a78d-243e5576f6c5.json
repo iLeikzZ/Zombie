@@ -701,6 +701,7 @@
       "minecraft:pillager": "2025-01-02 02:54:37 +0000",
       "minecraft:skeleton": "2025-01-02 04:54:58 +0000",
       "minecraft:spider": "2025-01-02 02:50:14 +0000",
+      "minecraft:wither_skeleton": "2025-01-02 18:27:16 +0000",
       "minecraft:husk": "2025-01-02 04:34:49 +0000",
       "minecraft:zombie": "2025-01-02 02:52:42 +0000"
     },
@@ -2333,12 +2334,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/fletching_table": {
-    "criteria": {
-      "has_flint": "2025-01-02 18:24:02 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-02 18:23:26 +0000"
@@ -2354,12 +2349,6 @@
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-02 18:23:26 +0000"
-    },
-    "done": true
-  },
-  "consistency_plus:recipes/flint": {
-    "criteria": {
-      "has_block": "2025-01-02 18:24:02 +0000"
     },
     "done": true
   },
@@ -2429,12 +2418,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/arrow": {
-    "criteria": {
-      "has_flint": "2025-01-02 18:24:02 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-02 18:23:26 +0000"
@@ -2447,12 +2430,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/flint_and_steel": {
-    "criteria": {
-      "has_flint": "2025-01-02 18:24:02 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-02 18:23:26 +0000"
@@ -2462,6 +2439,79 @@
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-02 18:23:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-01-02 18:24:02 +0000"
+    },
+    "done": true
+  },
+  "consistency_plus:recipes/flint": {
+    "criteria": {
+      "has_block": "2025-01-02 18:24:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2025-01-02 18:24:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2025-01-02 18:24:02 +0000"
+    },
+    "done": true
+  },
+  "incendium:root": {
+    "criteria": {
+      "requirement": "2025-01-02 18:25:27 +0000"
+    },
+    "done": true
+  },
+  "netherdepthsupgrade:main/root": {
+    "criteria": {
+      "entered_nether": "2025-01-02 18:25:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-01-02 18:25:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-01-02 18:25:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2025-01-02 18:25:32 +0000",
+      "minecraft:soul_sand_valley": "2025-01-02 18:28:53 +0000"
+    },
+    "done": false
+  },
+  "consistency_plus:recipes/netherrack": {
+    "criteria": {
+      "has_block": "2025-01-02 18:26:02 +0000"
+    },
+    "done": true
+  },
+  "consistency_plus:recipes/withered_bone": {
+    "criteria": {
+      "has_block": "2025-01-02 18:27:19 +0000"
+    },
+    "done": true
+  },
+  "zenith:affix/boss": {
+    "criteria": {
+      "sword": "2025-01-02 18:27:19 +0000"
     },
     "done": true
   },
