@@ -2022,3 +2022,9 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length
 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
 	... 29 more
 [00:47:44] [Server thread/INFO]: Set jajas10's game mode to Survival Mode
+[00:52:30] [Server thread/INFO]: chunky world <world> - Set the world target
+[00:52:36] [Server thread/INFO]: Incorrect argument for command
+[00:52:36] [Server thread/INFO]: ...unky start <--[HERE]
+[00:52:40] [Server thread/INFO]: [Chunky] Task started in minecraft:overworld for the square region centered at 0, 0 with radius 500.
+[00:52:40] [Chunky-minecraft:overworld Thread/INFO]: [Chunky] Task finished for minecraft:overworld. Processed: 4225 chunks (100.00%), Total time: 0:00:00
+[00:56:49] [Server thread/INFO]: Named entity class_4836['Shelby the AC Rizzlord'/19013, l='ServerLevel[world]', x=-726.56, y=54.00, z=-419.56] died: Shelby the AC Rizzlord was slain by jajas10
